@@ -17,3 +17,21 @@
 .animate-fadeInUp {
 animation: fadeInUp 0.8s ease-out forwards;
 }
+
+
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-slide {
+    animation: slide 30s linear infinite;
+  }
+
+  .group:hover .animate-slide {
+    animation-play-state: paused;
+  }

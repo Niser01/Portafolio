@@ -18,9 +18,44 @@
   </div>
 </section>
 
-<section id="proyectos" class="h-screen flex items-center justify-center bg-white">
-  <h2 class="text-4xl">Proyectos</h2>
+<section id="proyectos" class="min-h-screen flex flex-col items-start bg-white px-4 py-16 max-w-5xl mx-auto">
+  <h2 class="text-4xl font-bold mb-8">Tecnologías utilizadas</h2>
+
+<div class="relative overflow-hidden w-full py-4 group">
+  <div class="flex space-x-16 animate-slide whitespace-nowrap w-max">
+    <!-- Primera tanda -->
+    <img src="/python.svg" alt="Python" class="h-20 transition-transform duration-300 hover:scale-150">
+    <img src="/django.svg" alt="Django" class="h-20 transition-transform duration-300 hover:scale-150">
+    <img src="/docker.svg" alt="Docker" class="h-20 transition-transform duration-300 hover:scale-150">
+    <img src="/postgresql.svg" alt="PostgreSQL" class="h-20 transition-transform duration-300 hover:scale-150">
+    <img src="/git.svg" alt="Git" class="h-20 transition-transform duration-300 hover:scale-150">
+    <img src="/svelte.svg" alt="Git" class="h-20 transition-transform duration-300 hover:scale-150">
+
+    <!-- Segunda tanda (idéntica para que el loop sea fluido) -->
+    <img src="/python.svg" alt="Python" class="h-20 transition-transform duration-300 hover:scale-150">
+    <img src="/django.svg" alt="Django" class="h-20 transition-transform duration-300 hover:scale-150">
+    <img src="/docker.svg" alt="Docker" class="h-20 transition-transform duration-300 hover:scale-150">
+    <img src="/postgresql.svg" alt="PostgreSQL" class="h-20 transition-transform duration-300 hover:scale-150">
+    <img src="/git.svg" alt="Git" class="h-20 transition-transform duration-300 hover:scale-150">
+        <img src="/svelte.svg" alt="Git" class="h-20 transition-transform duration-300 hover:scale-150">
+  </div>
+</div>
+
+
+
+  <h2 class="text-4xl font-bold my-8">Proyectos</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
+    <div class="border rounded-xl p-6 shadow-lg hover:scale-105 transition">
+      <h3 class="text-xl font-semibold mb-2">Proyecto 1</h3>
+      <p class="text-gray-600 mb-4">Descripción breve del proyecto.</p>
+      <a href="" class="text-blue-600 hover:underline">Ver más →</a>
+    </div>
+    <!-- Más tarjetas -->
+  </div>
 </section>
+
+
 
 <section id="servicios" class="h-screen flex items-center justify-center bg-gray-100">
   <h2 class="text-4xl">Servicios</h2>
