@@ -1,7 +1,7 @@
-<section id="hero" class="relative h-screen flex items-center justify-center text-white overflow-hidden">
+<section id="hero" class="relative h-screen flex items-center justify-center text-white overflow-hidden ">
   <div class="absolute inset-0 z-0" style="background: linear-gradient(to right, #062C70 50%, black 150%);"></div>
 
-  <div class="w-full flex flex-col md:flex-row h-full relative z-10">
+  <div class="w-full flex flex-col md:flex-row h-full relative z-10 max-w-7xl">
     <div class="text-white md:w-1/2 flex flex-col justify-center h-full space-y-4">
       <div class="max-w-7xl mx-auto px-4">
         <p class="text-[32px] font-normal">¡Hola! Soy Nicolás,</p>
@@ -18,28 +18,72 @@
   </div>
 </section>
 
-<section id="proyectos" class="min-h-screen flex flex-col items-start bg-white px-4 py-16 max-w-5xl mx-auto">
+<section id="proyectos" class="min-h-screen flex flex-col items-start bg-white px-4 py-16 max-w-7xl mx-auto">
   <h2 class="text-4xl font-bold mb-8">Tecnologías utilizadas</h2>
 
-<div class="relative overflow-hidden w-full py-4 group">
-  <div class="flex space-x-16 animate-slide whitespace-nowrap w-max">
-    <!-- Primera tanda -->
-    <img src="/python.svg" alt="Python" class="h-20 transition-transform duration-300 hover:scale-150">
-    <img src="/django.svg" alt="Django" class="h-20 transition-transform duration-300 hover:scale-150">
-    <img src="/docker.svg" alt="Docker" class="h-20 transition-transform duration-300 hover:scale-150">
-    <img src="/postgresql.svg" alt="PostgreSQL" class="h-20 transition-transform duration-300 hover:scale-150">
-    <img src="/git.svg" alt="Git" class="h-20 transition-transform duration-300 hover:scale-150">
-    <img src="/svelte.svg" alt="Git" class="h-20 transition-transform duration-300 hover:scale-150">
+  <div class="relative overflow-hidden w-full py-4 group">
+    <div class="flex space-x-16 animate-slide whitespace-nowrap w-max">
+      <!-- Primera tanda -->
+      <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">
+        <img src="/python.svg" alt="Python" class="h-20 transition-transform duration-300 hover:scale-125">
+      </a>
+      <a href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer">
+        <img src="/django.svg" alt="Django" class="h-20 transition-transform duration-300 hover:scale-125">
+      </a>
+      <a href="https://go.dev/" target="_blank" rel="noopener noreferrer">
+        <img src="/go.svg" alt="GoLang" class="h-20 transition-transform duration-300 hover:scale-125">
+      </a>
+      <a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer">
+        <img src="/docker.svg" alt="Docker" class="h-20 transition-transform duration-300 hover:scale-125">
+      </a>
+      <a href="https://cloud.google.com/" target="_blank" rel="noopener noreferrer">
+        <img src="/googlecloud.svg" alt="Google Cloud" class="h-20 transition-transform duration-300 hover:scale-125">
+      </a>
+      <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer">
+        <img src="/postgresql.svg" alt="PostgreSQL" class="h-20 transition-transform duration-300 hover:scale-125">
+      </a>
+      <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">
+        <img src="/git.svg" alt="Git" class="h-20 transition-transform duration-300 hover:scale-125">
+      </a>
+      <a href="https://svelte.dev/" target="_blank" rel="noopener noreferrer">
+        <img src="/svelte.svg" alt="Svelte" class="h-20 transition-transform duration-300 hover:scale-125">
+      </a>
+      <a href="https://wordpress.org/" target="_blank" rel="noopener noreferrer">
+        <img src="/wordpress.svg" alt="WordPress" class="h-20 transition-transform duration-300 hover:scale-125">
+      </a>
 
-    <!-- Segunda tanda (idéntica para que el loop sea fluido) -->
-    <img src="/python.svg" alt="Python" class="h-20 transition-transform duration-300 hover:scale-150">
-    <img src="/django.svg" alt="Django" class="h-20 transition-transform duration-300 hover:scale-150">
-    <img src="/docker.svg" alt="Docker" class="h-20 transition-transform duration-300 hover:scale-150">
-    <img src="/postgresql.svg" alt="PostgreSQL" class="h-20 transition-transform duration-300 hover:scale-150">
-    <img src="/git.svg" alt="Git" class="h-20 transition-transform duration-300 hover:scale-150">
-        <img src="/svelte.svg" alt="Git" class="h-20 transition-transform duration-300 hover:scale-150">
+
+      <!-- Segunda tanda (idéntica para que el loop sea fluido) -->
+      <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">
+        <img src="/python.svg" alt="Python" class="h-20 transition-transform duration-300 hover:scale-125">
+      </a>
+      <a href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer">
+        <img src="/django.svg" alt="Django" class="h-20 transition-transform duration-300 hover:scale-125">
+      </a>
+      <a href="https://go.dev/" target="_blank" rel="noopener noreferrer">
+        <img src="/go.svg" alt="GoLang" class="h-20 transition-transform duration-300 hover:scale-125">
+      </a>
+      <a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer">
+        <img src="/docker.svg" alt="Docker" class="h-20 transition-transform duration-300 hover:scale-125">
+      </a>
+      <a href="https://cloud.google.com/" target="_blank" rel="noopener noreferrer">
+        <img src="/googlecloud.svg" alt="Google Cloud" class="h-20 transition-transform duration-300 hover:scale-125">
+      </a>
+      <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer">
+        <img src="/postgresql.svg" alt="PostgreSQL" class="h-20 transition-transform duration-300 hover:scale-125">
+      </a>
+      <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">
+        <img src="/git.svg" alt="Git" class="h-20 transition-transform duration-300 hover:scale-125">
+      </a>
+      <a href="https://svelte.dev/" target="_blank" rel="noopener noreferrer">
+        <img src="/svelte.svg" alt="Svelte" class="h-20 transition-transform duration-300 hover:scale-125">
+      </a>
+      <a href="https://wordpress.org/" target="_blank" rel="noopener noreferrer">
+        <img src="/wordpress.svg" alt="WordPress" class="h-20 transition-transform duration-300 hover:scale-125">
+      </a>
+
+    </div>
   </div>
-</div>
 
 
 
