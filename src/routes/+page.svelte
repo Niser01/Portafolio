@@ -44,6 +44,9 @@
       <a href="https://graphql.org/" target="_blank" rel="noopener noreferrer">
         <img src="/graphql.svg" alt="GraphQl" class="h-20 transition-transform duration-300 hover:scale-125">
       </a>
+      <a href="https://vercel.com/" target="_blank" rel="noopener noreferrer">
+        <img src="/vercel.svg" alt="Vercel" class="h-20 transition-transform duration-300 hover:scale-125">
+      </a>
       <a href="https://cloud.google.com/" target="_blank" rel="noopener noreferrer">
         <img src="/googlecloud.svg" alt="Google Cloud" class="h-20 transition-transform duration-300 hover:scale-125">
       </a>
@@ -75,6 +78,9 @@
       </a>
       <a href="https://graphql.org/" target="_blank" rel="noopener noreferrer">
         <img src="/graphql.svg" alt="GraphQl" class="h-20 transition-transform duration-300 hover:scale-125">
+      </a>
+      <a href="https://vercel.com/" target="_blank" rel="noopener noreferrer">
+        <img src="/vercel.svg" alt="Vercel" class="h-20 transition-transform duration-300 hover:scale-125">
       </a>
       <a href="https://cloud.google.com/" target="_blank" rel="noopener noreferrer">
         <img src="/googlecloud.svg" alt="Google Cloud" class="h-20 transition-transform duration-300 hover:scale-125">
