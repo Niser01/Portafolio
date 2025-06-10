@@ -1,10 +1,10 @@
-<section id="hero" class="relative min-h-[80vh] md:min-h-screen flex items-center justify-center text-white overflow-hidden">
+<section id="hero" class="relative min-h-[90vh] md:min-h-screen flex items-center justify-center text-white overflow-hidden">
   <div class="absolute inset-0 z-0" style="background: linear-gradient(to right, #062C70 50%, black 150%);"></div>
 
   <div class="w-full flex flex-col md:flex-row h-full relative z-10 max-w-7xl mx-auto px-4 items-center">
     
     <!-- Texto -->
-    <div class="text-white md:w-1/2 flex flex-col justify-center h-full space-y-4 pt-24 md:pt-0 text-center md:text-left">
+    <div class="text-white md:w-1/2 flex flex-col justify-center h-full space-y-4 pt-8 md:pt-0 text-center md:text-left">
       <div>
         <p class="text-[28px] md:text-[32px] font-normal">¡Hola! Soy Nicolás,</p>
         <h1 class="text-[36px] md:text-[48px] font-extrabold leading-tight bg-gradient-to-r from-[#33AAFF] to-[#D711FF] bg-clip-text text-transparent">
