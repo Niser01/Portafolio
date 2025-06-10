@@ -1,4 +1,4 @@
-<section id="hero" class="relative min-h-screen flex items-center justify-center text-white overflow-hidden">
+<section id="hero" class="relative min-h-[90vh] md:min-h-screen flex items-center justify-center text-white overflow-hidden">
   <div class="absolute inset-0 z-0" style="background: linear-gradient(to right, #062C70 50%, black 150%);"></div>
 
   <div class="w-full flex flex-col md:flex-row h-full relative z-10 max-w-7xl mx-auto px-4 items-center">
