@@ -100,7 +100,9 @@
 </section>
 
 <section id="proyectos" class="flex flex-col items-start bg-white px-4 py-20 max-w-7xl mx-auto border-t border-gray-200">
-  <h2 class="text-4xl font-bold mb-8">Proyectos</h2>
+  <h2 class="text-4xl font-bold mb-4">Proyectos destacados</h2>
+  <p class="text-gray-600 mb-12 text-lg">Algunos de los proyectos más relevantes en los que he trabajado. ¿Quieres conocer más?</p>
+
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
 
     <!-- Proyecto 1 -->
@@ -145,6 +147,13 @@
     </div>
 
   </div>
+
+  <!-- Botón para ver todos -->
+  <div class="mt-12 w-full flex justify-center">
+    <a href="/proyectos" class="inline-block bg-blue-600 text-white text-lg font-medium px-6 py-3 rounded-full shadow-lg hover:bg-blue-700 transition">
+      Ver todos los proyectos →
+    </a>
+  </div>
 </section>
 
 <section id="servicios" class="bg-[#062C70] text-white px-4 py-24">
@@ -181,7 +190,7 @@
     </div>
 
     <div class="mt-12">
-      <a href="/servicios" class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full text-lg font-semibold transition">Ver servicios detallados</a>
+      <a href="/servicios" class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full text-lg font-semibold transition">Ver servicios detallados →</a>
     </div>
   </div>
 </section>
