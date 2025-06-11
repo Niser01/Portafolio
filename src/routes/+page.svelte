@@ -22,8 +22,6 @@
   </div>
 </section>
 
-
-
 <section id="tecnologias" class="flex flex-col items-start bg-white px-4 py-20 max-w-7xl mx-auto border-t border-gray-200">
   <h2 class="text-4xl font-bold mb-8">Tecnologías utilizadas</h2>
   <div class="relative overflow-hidden w-full py-4 group">
@@ -143,13 +141,11 @@
         <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">WordPress</span>
         <span class="bg-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Apache</span>
       </div>
-      <a href="/proyectos/facultad-ciencias" class="text-blue-600 hover:underline">Ver más →</a>
+      <a href="/proyectos/pagina_web_facultad_de_ciencias" class="text-blue-600 hover:underline">Ver más →</a>
     </div>
 
   </div>
 </section>
-
-
 
 <section id="servicios" class="flex flex-col items-start bg-white px-4 py-20 max-w-7xl mx-auto border-t border-gray-200">
   <h2 class="text-4xl font-bold mb-12 text-center">Servicios</h2>
@@ -222,7 +218,7 @@
       <div>
         <h3 class="text-2xl font-semibold mb-2">💼 Experiencia</h3>
         <ul class="list-disc list-inside text-gray-700">
-          <li>Desarrollador Backend — Infometrika S.A.S (2025)</li>
+          <li>Desarrollador — Infometrika S.A.S (2025)</li>
           <li>Contratista TI — Facultad de Ciencias UNAL (2024)</li>
           <li>Estudiante Auxiliar Web — UNAL (2021-2024)</li>
         </ul>
