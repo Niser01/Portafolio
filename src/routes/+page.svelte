@@ -147,52 +147,45 @@
   </div>
 </section>
 
-<section id="servicios" class="flex flex-col items-start bg-white px-4 py-20 max-w-7xl mx-auto border-t border-gray-200">
-  <h2 class="text-4xl font-bold mb-12 text-center">Servicios</h2>
+<section id="servicios" class="bg-[#062C70] text-white px-4 py-24">
+  <div class="max-w-7xl mx-auto text-center">
+    <h2 class="text-5xl font-extrabold mb-12">¿Qué puedo hacer por ti?</h2>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
-
-    <!-- Servicio 1 -->
-    <div class="border rounded-2xl p-8 shadow-lg hover:scale-105 transition bg-white text-center">
-      <div class="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-blue-100 text-blue-600">
-        <i class="fa-solid fa-code text-2xl"></i>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Servicio 1 -->
+      <div class="bg-white text-[#0F172A] p-8 rounded-2xl shadow-lg hover:scale-105 transition">
+        <div class="flex items-center justify-center w-16 h-16 mx-auto mb-6 rounded-full bg-blue-100 text-blue-600">
+          <i class="fa-solid fa-code text-2xl"></i>
+        </div>
+        <h3 class="text-2xl font-bold mb-2">Web & Frontend</h3>
+        <p class="text-gray-600">Landing pages, dashboards y sistemas responsivos optimizados para SEO y rendimiento.</p>
       </div>
-      <h3 class="text-2xl font-semibold mb-2">Desarrollo Web</h3>
-      <p class="text-gray-600 mb-4">Sitios rápidos, responsivos y optimizados para SEO, desde landing pages hasta sistemas fullstack.</p>
-      <span class="text-sm text-blue-600 font-medium">HTML, CSS, JavaScript, Django, Svelte</span>
+
+      <!-- Servicio 2 -->
+      <div class="bg-white text-[#0F172A] p-8 rounded-2xl shadow-lg hover:scale-105 transition">
+        <div class="flex items-center justify-center w-16 h-16 mx-auto mb-6 rounded-full bg-green-100 text-green-600">
+          <i class="fa-solid fa-server text-2xl"></i>
+        </div>
+        <h3 class="text-2xl font-bold mb-2">APIs & Backend</h3>
+        <p class="text-gray-600">Servicios robustos en Python, Go, GraphQL y REST, listos para escalar en nube o contenedores.</p>
+      </div>
+
+      <!-- Servicio 3 -->
+      <div class="bg-white text-[#0F172A] p-8 rounded-2xl shadow-lg hover:scale-105 transition">
+        <div class="flex items-center justify-center w-16 h-16 mx-auto mb-6 rounded-full bg-purple-100 text-purple-600">
+          <i class="fa-solid fa-gears text-2xl"></i>
+        </div>
+        <h3 class="text-2xl font-bold mb-2">Infraestructura & DevOps</h3>
+        <p class="text-gray-600">Automatización de despliegues, Dockerización de apps y configuración de servidores cloud.</p>
+      </div>
     </div>
 
-    <!-- Servicio 2 -->
-    <div class="border rounded-2xl p-8 shadow-lg hover:scale-105 transition bg-white text-center">
-      <div class="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-green-100 text-green-600">
-        <i class="fa-solid fa-server text-2xl"></i>
-      </div>
-      <h3 class="text-2xl font-semibold mb-2">Backend & APIs</h3>
-      <p class="text-gray-600 mb-4">Desarrollo y despliegue de APIs REST y GraphQL robustas, seguras y escalables.</p>
-      <span class="text-sm text-green-600 font-medium">Python, Go, PostgreSQL, Docker, GCP</span>
+    <div class="mt-12">
+      <a href="/servicios" class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full text-lg font-semibold transition">Ver servicios detallados</a>
     </div>
-
-    <!-- Servicio 3 -->
-    <div class="border rounded-2xl p-8 shadow-lg hover:scale-105 transition bg-white text-center">
-      <div class="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-purple-100 text-purple-600">
-        <i class="fa-solid fa-gears text-2xl"></i>
-      </div>
-      <h3 class="text-2xl font-semibold mb-2">Infraestructura & DevOps</h3>
-      <p class="text-gray-600 mb-4">Configuración de entornos, despliegue de aplicaciones en servidores, contenedores Docker y nube.</p>
-      <span class="text-sm text-purple-600 font-medium">Docker, Apache, GCP, Cloud Run, CI/CD básico</span>
-    </div>
-
   </div>
-
-  <!-- Call to Action -->
-  <div class="mt-16 text-center mx-auto max-w-5xl">
-    <h3 class="text-2xl font-semibold mb-4">¿Te gustaría trabajar conmigo?</h3>
-    <p class="text-gray-600 mb-6">Estoy disponible para proyectos freelance, colaboraciones y oportunidades profesionales.</p>
-    <a href="mailto:nicolassergio6@gmail.com" class="bg-blue-600 text-white px-6 py-3 rounded-full font-medium hover:bg-blue-700 transition">Escríbeme por correo</a>
-    <p class="text-gray-500 mt-4 text-sm">O escríbeme a: <span class="font-medium select-all">nicolassergio6@gmail.com</span></p>
-  </div>
-
 </section>
+
 
 <section id="sobremi" class="bg-gray-50 py-24 border-t border-gray-200">
   <div class="max-w-7xl w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-4">
