@@ -72,10 +72,3 @@
     </ul>
   </div>
 </section>
-
-<!-- Créditos -->
-<section id="creditos" class="py-16 px-6 max-w-4xl mx-auto text-center">
-  <h2 class="text-3xl font-bold mb-6">📝 Créditos</h2>
-  <p class="text-lg">Desarrollador: <strong>Tu Nombre</strong></p>
-  <p class="text-lg mt-2">Rol: Análisis de requerimientos, desarrollo frontend y despliegue.</p>
-</section>
