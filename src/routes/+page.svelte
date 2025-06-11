@@ -149,7 +149,7 @@
 
 <section id="servicios" class="bg-[#062C70] text-white px-4 py-24">
   <div class="max-w-7xl mx-auto text-center">
-    <h2 class="text-5xl font-extrabold mb-12">¿Qué puedo hacer por ti?</h2>
+    <h2 class="text-4xl font-bold mb-8">¿Qué puedo hacer por ti?</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       <!-- Servicio 1 -->
