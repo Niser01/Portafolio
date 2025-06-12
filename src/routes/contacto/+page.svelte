@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { onMount } from 'svelte'
   import emailjs from 'emailjs-com'
 
   let name = '', email = '', subject = '', message = '', loading = false
@@ -7,10 +8,35 @@
   const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
   const siteKey = import.meta.env.VITE_RECAPTCHA_SITE_KEY
 
+  let recaptchaWidgetId: number | null = null
+
+  // Renderiza el reCAPTCHA cuando se monta el componente
+  onMount(() => {
+    if (window.grecaptcha) {
+      renderRecaptcha()
+    } else {
+      const interval = setInterval(() => {
+        if (window.grecaptcha) {
+          clearInterval(interval)
+          renderRecaptcha()
+        }
+      }, 300)
+    }
+  })
+
+  function renderRecaptcha() {
+    const recaptchaContainer = document.querySelector('.g-recaptcha')
+    if (recaptchaContainer && !recaptchaWidgetId) {
+      recaptchaWidgetId = window.grecaptcha.render(recaptchaContainer as HTMLElement, {
+        sitekey: siteKey
+      })
+    }
+  }
+
   const handleSubmit = async (e: SubmitEvent) => {
     e.preventDefault()
 
-    const recaptchaResponse = grecaptcha.getResponse()
+    const recaptchaResponse = window.grecaptcha.getResponse()
 
     if (!recaptchaResponse) {
       alert('Por favor verifica que no eres un robot.')
@@ -25,7 +51,9 @@
       .then(() => {
         alert('¡Gracias por tu mensaje! Te responderé pronto.')
         name = email = subject = message = ''
-        grecaptcha.reset()
+        if (recaptchaWidgetId !== null) {
+          window.grecaptcha.reset(recaptchaWidgetId)
+        }
         loading = false
       })
       .catch(error => {
@@ -35,7 +63,6 @@
       })
   }
 </script>
-
 
 <section class="bg-white py-20 px-4 max-w-4xl mx-auto">
   <h2 class="text-4xl font-bold mb-8 text-center">Contacto</h2>
@@ -63,7 +90,7 @@
     </label>
 
     <div class="flex justify-center">
-      <div class="g-recaptcha" data-sitekey={siteKey}></div>
+      <div class="g-recaptcha"></div>
     </div>
 
     <button type="submit" class="w-full bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition disabled:opacity-50" disabled={loading}>
@@ -71,9 +98,8 @@
     </button>
   </form>
 
-    <div class="mt-16 text-center text-gray-600">
+  <div class="mt-16 text-center text-gray-600">
     <p>También puedes escribirme directamente a:</p>
     <a href="mailto:nicolassergio6@gmail.com" class="font-medium text-blue-600 hover:underline">nicolassergio6@gmail.com</a>
-    </div>
-
+  </div>
 </section>
