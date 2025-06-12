@@ -40,7 +40,7 @@
 
 <!-- Menú desplegable (móvil) -->
 {#if menuOpen}
-  <div class="lg:hidden bg-[#0F172A] pt-4 pb-6 space-y-4 fixed top-16 left-0 w-full z-40 transition-all duration-300">
+  <div class="lg:hidden bg-[#0F172A] pt-4 pb-6 space-y-4 fixed top-[64px] left-0 w-full z-50 transition-all duration-300">
     <div class="px-6">
       {#each sections as section}
         <a
@@ -53,9 +53,11 @@
 
       <a
         href="/contacto"
-        class="block bg-blue-600 hover:bg-blue-700 text-white text-center py-3 rounded-full transition mt-4">
+        class="block bg-blue-600 hover:bg-blue-700 text-white text-center py-3 rounded-full transition mt-4"
+        on:click={() => menuOpen = false}>
         Contacto
       </a>
     </div>
   </div>
 {/if}
+
