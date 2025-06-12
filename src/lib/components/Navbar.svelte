@@ -40,12 +40,12 @@
 
 <!-- Menú desplegable (móvil) -->
 {#if menuOpen}
-  <div class="lg:hidden bg-[#0F172A] pt-4 pb-6 space-y-4 fixed top-[64px] left-0 w-full z-50 transition-all duration-300">
+  <div class="lg:hidden bg-[#0F172A] pt-6 pb-8 space-y-6 fixed top-[64px] left-0 w-full z-50 transition-all duration-300">
     <div class="px-6">
       {#each sections as section}
         <a
           href={section.href}
-          class="block text-gray-300 hover:text-white text-lg transition"
+          class="block text-white text-xl py-4 border-b border-gray-700 transition"
           on:click={() => menuOpen = false}>
           {section.name}
         </a>
@@ -53,11 +53,12 @@
 
       <a
         href="/contacto"
-        class="block bg-blue-600 hover:bg-blue-700 text-white text-center py-3 rounded-full transition mt-4"
+        class="block bg-blue-600 hover:bg-blue-700 text-white text-center text-xl py-4 rounded-full transition mt-6"
         on:click={() => menuOpen = false}>
         Contacto
       </a>
     </div>
   </div>
 {/if}
+
 
