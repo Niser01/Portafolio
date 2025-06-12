@@ -1,19 +1,29 @@
-<section id="hero" class="relative min-h-[90vh] md:min-h-screen flex items-center justify-center text-white overflow-hidden">
+<section id="hero" class="relative min-h-[70vh] md:min-h-screen flex items-center justify-center text-white overflow-hidden">
   <div class="absolute inset-0 z-0" style="background: linear-gradient(to right, #062C70 50%, black 150%);"></div>
 
-  <div class="w-full flex flex-col md:flex-row h-full relative z-10 max-w-7xl mx-auto px-4 items-center">
+  <div class="w-full flex flex-col md:flex-row h-full relative z-10 max-w-7xl mx-auto px-4 py-12 md:py-0 items-center">
     
     <!-- Texto -->
-    <div class="text-white md:w-1/2 flex flex-col justify-center h-full space-y-4 pt-8 md:pt-0 text-center md:text-left">
+    <div class="text-white w-full md:w-1/2 flex flex-col justify-center h-full space-y-6 text-center md:text-left">
       <div>
-        <p class="text-[28px] md:text-[32px] font-normal">¡Hola! Soy Nicolás,</p>
-        <h1 class="text-[36px] md:text-[48px] font-extrabold leading-tight bg-gradient-to-r from-[#33AAFF] to-[#D711FF] bg-clip-text text-transparent">
+        <p class="text-[24px] md:text-[32px] font-normal">¡Hola! Soy Nicolás,</p>
+        <h1 class="text-[32px] md:text-[45px] font-extrabold leading-tight bg-gradient-to-r from-[#33AAFF] to-[#D711FF] bg-clip-text text-transparent">
           Desarrollador de Software
         </h1>
+        <p class="text-gray-300 text-[16px] md:text-[18px] mt-4">
+          Diseño y desarrollo soluciones digitales eficientes para potenciar tus ideas.
+        </p>
+      </div>
+
+      <!-- CTA -->
+      <div>
+        <a href="/servicios" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold text-[16px] md:text-[18px] px-6 py-3 rounded-full transition">
+          Ver Servicios →
+        </a>
       </div>
     </div>
 
-    <!-- Imagen -->
+    <!-- Imagen (solo en desktop) -->
     <div class="md:w-1/2 h-full flex items-center justify-center relative mt-16 md:mt-0 hidden md:flex">
       <div class="w-72 h-72 md:w-96 md:h-96 bg-white rounded-full shadow-lg absolute z-0"></div>
       <img src="/imagen_banner.png" alt="Mockup computador" class="w-72 h-72 md:w-[500px] md:h-[500px] object-contain relative z-10 opacity-0 translate-y-4 animate-fadeInUp"/>
@@ -22,8 +32,9 @@
   </div>
 </section>
 
+
 <section id="tecnologias" class="flex flex-col items-center bg-white px-4 py-20 max-w-7xl mx-auto border-t border-gray-200">
-  <h2 class="text-4xl font-bold mb-8">Tecnologías utilizadas</h2>
+  <h2 class="text-4xl font-bold mb-8 text-center">Tecnologías utilizadas</h2>
   <div class="relative overflow-hidden w-full py-4 group">
     <div class="flex space-x-16 animate-slide whitespace-nowrap w-max">
       <!-- Primera tanda -->
@@ -100,9 +111,8 @@
 </section>
 
 <section id="proyectos" class="flex flex-col items-center bg-white px-4 py-20 max-w-7xl mx-auto border-t border-gray-200">
-  <h2 class="text-4xl font-bold mb-4">Proyectos destacados</h2>
-  <p class="text-gray-600 mb-12 text-lg">Algunos de los proyectos más relevantes en los que he trabajado. ¿Quieres conocer más?</p>
-
+  <h2 class="text-4xl font-bold mb-4 text-center">Proyectos destacados</h2>
+  <p class="text-gray-600 mb-12 text-lg text-center">Algunos de los proyectos más relevantes en los que he trabajado. ¿Quieres conocer más?</p>
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
 
     <!-- Proyecto 1 -->
