@@ -98,8 +98,11 @@
     </button>
   </form>
 
-  <div class="mt-16 text-center text-gray-600">
-    <p>También puedes escribirme directamente a:</p>
-    <a href="mailto:nicolassergio6@gmail.com" class="font-medium text-blue-600 hover:underline">nicolassergio6@gmail.com</a>
-  </div>
+    <div class="mt-16 text-center text-gray-600">
+    <p class="text-lg font-medium mb-4">También puedes escribirme directamente a:</p>
+        <div class="flex justify-center gap-6 mb-6">
+            <a href="mailto:nicolassergio6@gmail.com" class="text-blue-600 hover:underline">nicolassergio6@gmail.com</a>
+        </div>
+    </div>
+
 </section>
