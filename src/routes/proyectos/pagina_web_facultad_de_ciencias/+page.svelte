@@ -54,7 +54,7 @@
 <!-- Tecnologías -->
 <section id="tecnologias" class="bg-gray-100 py-16 px-6">
   <div class="max-w-7xl mx-auto">
-    <h2 class="text-3xl font-bold mb-10 text-center">Tecnologías Utilizadas</h2>
+    <h2 class="text-4xl font-bold mb-15 text-[#062C70] text-center">Tecnologías Utilizadas</h2>
     <div class="grid grid-cols-2 md:grid-cols-3 gap-8 text-center">
       <div>
         <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
@@ -136,38 +136,85 @@
 </section>
 
 
-
-<!-- Galería -->
-<section id="galeria" class="bg-gray-100 py-16 ">
+<section id="galeria" class="bg-gray-100 py-16">
   <div class="max-w-7xl mx-auto px-6">
-    <h2 class="text-3xl font-bold mb-6 text-center">Galería</h2>
-    <div class="grid md:grid-cols-2 gap-6">
-      <img src="/facultad_ciencias.png" alt="Vista de inicio" class="rounded-lg shadow" />
-      <img src="/facultad_ciencias.png" alt="Sección de noticias" class="rounded-lg shadow" />
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+
+      <!-- Video principal -->
+      <div class="col-span-2 md:col-span-2 row-span-2 overflow-hidden rounded-lg shadow-2xl">
+        <video controls class="w-full h-full object-cover rounded-lg">
+          <source src="/clip_demo.mp4" type="video/mp4" />
+          <track kind="captions" srclang="es" label="Español" src="" default />
+          Tu navegador no soporta video HTML5.
+        </video>
+      </div>
+
+      <!-- Imagen 1 -->
+      <div>
+        <img src="/facultad_ciencias.png" alt="Vista inicio" class="w-full h-full object-cover rounded-lg shadow" />
+      </div>
+
+      <!-- Imagen 2 -->
+      <div>
+        <img src="/facultad_ciencias.png" alt="Noticias" class="w-full h-full object-cover rounded-lg shadow" />
+      </div>
+
+      <!-- Imagen 3 -->
+      <div class="col-span-2">
+        <img src="/facultad_ciencias.png" alt="Recursos externos" class="w-full h-full object-cover rounded-lg shadow" />
+      </div>
+
+      <!-- Imagen 4 -->
+      <div class="col-span-2">
+        <img src="/facultad_ciencias.png" alt="Recursos externos" class="w-full h-full object-cover rounded-lg shadow" />
+      </div>
+
+      <!-- Imagen 5 -->
+      <div class="col-span-1">
+        <img src="/facultad_ciencias.png" alt="Vista inicio" class="w-full h-full object-cover rounded-lg shadow" />
+      </div>
+
+      <!-- Imagen 6 -->
+      <div class="col-span-1">
+        <img src="/facultad_ciencias.png" alt="Noticias" class="w-full h-full object-cover rounded-lg shadow" />
+      </div>
+
     </div>
   </div>
 </section>
+
+
+
 
 <!-- Resultados y Aprendizajes -->
-<section id="resultados" class="py-16 max-w-7xl mx-auto px-6">
-  <h2 class="text-3xl font-bold mb-6 text-center">Resultados y Lecciones Aprendidas</h2>
-  <div class="grid md:grid-cols-2 gap-6">
-    <div class="bg-white rounded-lg p-6 shadow">
-      <h3 class="text-xl font-semibold mb-2">Contingencia Resuelta en 72 Horas</h3>
-      <p class="text-gray-700">Se garantizó continuidad institucional con un sitio provisional funcional en HTML/CSS puro, permitiendo mantener informada a la comunidad académica.</p>
-    </div>
-    <div class="bg-white rounded-lg p-6 shadow">
-      <h3 class="text-xl font-semibold mb-2">Proyecto Completo en 4 Meses</h3>
-      <p class="text-gray-700">Se desarrolló e implementó una nueva página institucional en WordPress, con todas las funcionalidades requeridas y mejoras de seguridad y diseño.</p>
-    </div>
-    <div class="bg-white rounded-lg p-6 shadow">
-      <h3 class="text-xl font-semibold mb-2">Optimización de Recursos y Seguridad</h3>
-      <p class="text-gray-700">Uso de tecnologías de código abierto, despliegue en servidor propio y configuración segura para proteger la infraestructura.</p>
-    </div>
-    <div class="bg-white rounded-lg p-6 shadow">
-      <h3 class="text-xl font-semibold mb-2">Gestión Individual y Resolutiva</h3>
-      <p class="text-gray-700">Se logró gestionar, desarrollar y desplegar el proyecto de forma autónoma, enfrentando desafíos técnicos y organizativos con soluciones prácticas y oportunas.</p>
-    </div>
+<section id="resultados" class="py-16 bg-[#062C70] text-white">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-12 text-center text-white">Resultados y Lecciones Aprendidas</h2>
+    <div class="grid md:grid-cols-2 gap-8">
 
+      <div class="bg-white text-gray-800 rounded-xl p-6 shadow-lg ring-1 ring-blue-500/30 hover:ring-4 hover:ring-fuchsia-500/70 hover:shadow-2xl hover:scale-[1.02] transition duration-300">
+        <h3 class="text-xl font-semibold mb-2">Contingencia Resuelta en 72 Horas</h3>
+        <p class="text-gray-700">Se garantizó continuidad institucional con un sitio provisional funcional en HTML/CSS puro, permitiendo mantener informada a la comunidad académica.</p>
+      </div>
+
+      <div class="bg-white text-gray-800 rounded-xl p-6 shadow-lg ring-1 ring-blue-500/30 hover:ring-4 hover:ring-lime-400/70 hover:shadow-2xl hover:scale-[1.02] transition duration-300">
+        <h3 class="text-xl font-semibold mb-2">Proyecto Completo en 4 Meses</h3>
+        <p class="text-gray-700">Se desarrolló e implementó una nueva página institucional en WordPress, con todas las funcionalidades requeridas y mejoras de seguridad y diseño.</p>
+      </div>
+
+      <div class="bg-white text-gray-800 rounded-xl p-6 shadow-lg ring-1 ring-blue-500/30 hover:ring-4 hover:ring-amber-400/70 hover:shadow-2xl hover:scale-[1.02] transition duration-300">
+        <h3 class="text-xl font-semibold mb-2">Optimización de Recursos y Seguridad</h3>
+        <p class="text-gray-700">Uso de tecnologías de código abierto, despliegue en servidor propio y configuración segura para proteger la infraestructura.</p>
+      </div>
+
+      <div class="bg-white text-gray-800 rounded-xl p-6 shadow-lg ring-1 ring-blue-500/30 hover:ring-4 hover:ring-rose-500/70 hover:shadow-2xl hover:scale-[1.02] transition duration-300">
+        <h3 class="text-xl font-semibold mb-2">Gestión Individual y Resolutiva</h3>
+        <p class="text-gray-700">Se logró gestionar, desarrollar y desplegar el proyecto de forma autónoma, enfrentando desafíos técnicos y organizativos con soluciones prácticas y oportunas.</p>
+      </div>
+
+    </div>
   </div>
 </section>
+
+
+
