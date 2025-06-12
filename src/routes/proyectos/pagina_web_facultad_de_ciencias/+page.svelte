@@ -1,18 +1,57 @@
 <!-- Hero / Banner -->
-<section id="hero" class="bg-[#062C70] text-white py-30">
-  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center ">
+<section id="hero" class="bg-[#062C70] text-white py-50">
+  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center px-6">
+
+    <!-- Lado izquierdo -->
     <div>
-      <h1 class="text-5xl font-bold mb-6">Proyecto Web Facultad de Ciencias</h1>
-      <p class="text-xl">Desarrollo de un portal institucional accesible, adaptable y seguro para la comunidad académica de la Facultad de Ciencias de la Universidad Nacional de Colombia.</p>
+
+      <!-- Título -->
+      <h1 class="text-6xl leading-tight font-bold mb-6">Proyecto Web Facultad de Ciencias</h1>
+
+      <!-- Descripción -->
+      <p class="text-xl mb-6">Desarrollo de un portal institucional accesible, adaptable y seguro para la comunidad académica de la Facultad de Ciencias de la Universidad Nacional de Colombia.</p>
+      <!-- Servicios ofrecidos -->
+      <div class="flex flex-wrap gap-2 mb-6">
+        <span class="bg-cyan-100 text-cyan-800 text-m font-medium px-2.5 py-0.5 rounded">Frontend</span>
+        <span class="bg-rose-100 text-rose-800 text-m font-medium px-2.5 py-0.5 rounded">UX/UI</span>
+        <span class="bg-indigo-100 text-indigo-800 text-m font-medium px-2.5 py-0.5 rounded">Despliegue Web</span>
+        <span class="bg-amber-100 text-amber-800 text-m font-medium px-2.5 py-0.5 rounded">Accesibilidad</span>
+      </div>
+
+      <!-- Industria y año -->
+      <p class="text-m text-gray-300 mb-6">
+        Industria: <span class="text-white font-bold">Educación</span> &nbsp;|&nbsp; Año: <span class="text-white font-bold">2024</span>
+      </p>
+
+
     </div>
-    <div>
-      <img src="/facultad_ciencias.png" alt="Facultad Ciencias" class="rounded-lg shadow-lg w-full" />
+
+    <!-- Lado derecho -->
+    <div class="space-y-4">
+
+      <!-- Imagen (oculta en móvil) -->
+      <div class="hidden md:block">
+        <div class="aspect-[4/3] overflow-hidden rounded-lg drop-shadow-2xl">
+          <img src="/facultad_ciencias.png" alt="Facultad Ciencias" class="object-cover w-full h-full" />
+        </div>
+      </div>
+
+      <!-- Call to Action -->
+      <div class="flex justify-center">
+        <a href="https://ciencias.bogota.unal.edu.co/" target="_blank" class="inline-block bg-blue-600 hover:bg-blue-700 text-white text-[16px] md:text-[18px] px-6 py-3 rounded-full transition">
+          Visitar Sitio Web →
+        </a>
+      </div>
+
     </div>
+
+
   </div>
 </section>
 
+
 <!-- Descripción -->
-<section id="descripcion" class="py-16 px-6 max-w-7xl mx-auto">
+<section id="descripcion" class="py-16 max-w-7xl mx-auto px-6">
   <h2 class="text-3xl font-bold mb-6 text-center">Descripción General</h2>
   <p class="mb-4">En junio de 2021, tras un incidente de seguridad que dejó inoperativo el sitio web oficial de la Facultad de Ciencias de la Universidad Nacional de Colombia, se levantó un sitio web temporal en menos de 72 horas utilizando únicamente HTML y CSS, garantizando comunicación básica a estudiantes, docentes y personal administrativo.</p>
   <p class="mb-4">Posteriormente, se dio inicio a un proyecto de desarrollo completo de una nueva página institucional basada en WordPress, con una duración aproximada de 4 meses. Durante este periodo se realizaron:</p>
@@ -71,7 +110,7 @@
 </section>
 
 <!-- Funcionalidades -->
-<section id="funcionalidades" class="py-16 max-w-7xl mx-auto ">
+<section id="funcionalidades" class="py-16 max-w-7xl mx-auto px-6">
   <h2 class="text-3xl font-bold mb-12 text-center">Funcionalidades Principales</h2>
   <div class="grid md:grid-cols-2 gap-8">
     <div class="bg-white rounded-xl p-6 shadow hover:shadow-lg transition">
@@ -99,8 +138,8 @@
 
 
 <!-- Galería -->
-<section id="galeria" class="bg-gray-100 py-16 px-6">
-  <div class="max-w-7xl mx-auto">
+<section id="galeria" class="bg-gray-100 py-16 ">
+  <div class="max-w-7xl mx-auto px-6">
     <h2 class="text-3xl font-bold mb-6 text-center">Galería</h2>
     <div class="grid md:grid-cols-2 gap-6">
       <img src="/facultad_ciencias.png" alt="Vista de inicio" class="rounded-lg shadow" />
@@ -110,7 +149,7 @@
 </section>
 
 <!-- Resultados y Aprendizajes -->
-<section id="resultados" class="py-16 max-w-7xl mx-auto">
+<section id="resultados" class="py-16 max-w-7xl mx-auto px-6">
   <h2 class="text-3xl font-bold mb-6 text-center">Resultados y Lecciones Aprendidas</h2>
   <div class="grid md:grid-cols-2 gap-6">
     <div class="bg-white rounded-lg p-6 shadow">
