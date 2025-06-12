@@ -22,7 +22,7 @@
   </div>
 </section>
 
-<section id="tecnologias" class="flex flex-col items-start bg-white px-4 py-20 max-w-7xl mx-auto border-t border-gray-200">
+<section id="tecnologias" class="flex flex-col items-center bg-white px-4 py-20 max-w-7xl mx-auto border-t border-gray-200">
   <h2 class="text-4xl font-bold mb-8">Tecnologías utilizadas</h2>
   <div class="relative overflow-hidden w-full py-4 group">
     <div class="flex space-x-16 animate-slide whitespace-nowrap w-max">
@@ -99,7 +99,7 @@
   </div>
 </section>
 
-<section id="proyectos" class="flex flex-col items-start bg-white px-4 py-20 max-w-7xl mx-auto border-t border-gray-200">
+<section id="proyectos" class="flex flex-col items-center bg-white px-4 py-20 max-w-7xl mx-auto border-t border-gray-200">
   <h2 class="text-4xl font-bold mb-4">Proyectos destacados</h2>
   <p class="text-gray-600 mb-12 text-lg">Algunos de los proyectos más relevantes en los que he trabajado. ¿Quieres conocer más?</p>
 
