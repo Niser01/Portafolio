@@ -26,43 +26,30 @@
 
     </div>
 
-    <!-- Lado derecho -->
-    <div class="space-y-4">
+      <!-- Lado derecho -->
+      <div class="space-y-4">
 
-      <!-- Imagen (oculta en móvil) -->
-      <div class="hidden md:block">
-        <div class="aspect-[4/3] overflow-hidden rounded-lg drop-shadow-2xl">
-          <img src="/facultad_ciencias.png" alt="Facultad Ciencias" class="object-cover w-full h-full" />
+        <!-- Imagen (oculta en móvil) -->
+        <div class="hidden md:block">
+          <div class="aspect-[4/3] overflow-hidden rounded-lg drop-shadow-2xl">
+            <img src="/facultad_ciencias.png" alt="Facultad Ciencias" class="object-cover w-full h-full" />
+          </div>
         </div>
-      </div>
 
-      <!-- Call to Action -->
-      <div class="flex justify-center">
-        <a href="https://ciencias.bogota.unal.edu.co/" target="_blank" class="inline-block bg-blue-600 hover:bg-blue-700 text-white text-[16px] md:text-[18px] px-6 py-3 rounded-full transition">
-          Visitar Sitio Web →
-        </a>
-      </div>
+        <!-- Call to Action -->
+        <div class="flex justify-center">
+          <a href="https://ciencias.bogota.unal.edu.co/" target="_blank" class="inline-block bg-blue-600 hover:bg-blue-700 text-white text-[16px] md:text-[18px] px-6 py-3 rounded-full transition">
+            Visitar Sitio Web →
+          </a>
+        </div>
 
-    </div>
+      </div>
 
 
   </div>
 </section>
 
 
-<!-- Descripción -->
-<section id="descripcion" class="py-16 max-w-7xl mx-auto px-6">
-  <h2 class="text-3xl font-bold mb-6 text-center">Descripción General</h2>
-  <p class="mb-4">En junio de 2021, tras un incidente de seguridad que dejó inoperativo el sitio web oficial de la Facultad de Ciencias de la Universidad Nacional de Colombia, se levantó un sitio web temporal en menos de 72 horas utilizando únicamente HTML y CSS, garantizando comunicación básica a estudiantes, docentes y personal administrativo.</p>
-  <p class="mb-4">Posteriormente, se dio inicio a un proyecto de desarrollo completo de una nueva página institucional basada en WordPress, con una duración aproximada de 4 meses. Durante este periodo se realizaron:</p>
-  <ul class="list-disc list-inside mb-4">
-    <li>Levantamiento de requerimientos y definición de funcionalidades clave.</li>
-    <li>Fases iterativas de diseño, pruebas de concepto y selección de plantillas y CMS.</li>
-    <li>Configuración del servidor Apache y entorno de despliegue.</li>
-    <li>Implementación de seguridad básica y optimización de recursos.</li>
-    <li>Pruebas de navegabilidad, compatibilidad móvil y accesibilidad antes de su liberación oficial.</li>
-  </ul>
-</section>
 
 <!-- Tecnologías -->
 <section id="tecnologias" class="bg-gray-100 py-16 px-6">
@@ -111,30 +98,43 @@
 
 <!-- Funcionalidades -->
 <section id="funcionalidades" class="py-16 max-w-7xl mx-auto px-6">
-  <h2 class="text-3xl font-bold mb-12 text-center">Funcionalidades Principales</h2>
-  <div class="grid md:grid-cols-2 gap-8">
-    <div class="bg-white rounded-xl p-6 shadow hover:shadow-lg transition">
-      <h3 class="text-2xl font-semibold mb-3 text-[#062C70]">Página de Inicio con Navegación Ágil</h3>
-      <p class="text-gray-700">Acceso rápido a noticias, comunicados y enlaces institucionales desde la portada.</p>
+  <div class="grid md:grid-cols-2 gap-12 items-start">
+
+    <!-- Columna izquierda -->
+    <div>
+      <h2 class="text-4xl font-bold mb-6 text-[#062C70]">Funcionalidades Principales</h2>
+      <p class="text-lg text-gray-700 leading-relaxed">
+        Tras el incidente de seguridad en 2021, se desarrolló un nuevo portal institucional que incorpora navegación ágil, gestión dinámica de contenidos, integración de recursos académicos y configuración de seguridad, garantizando una experiencia accesible y actualizada para la comunidad de la Facultad de Ciencias.
+      </p>
     </div>
-    <div class="bg-white rounded-xl p-6 shadow hover:shadow-lg transition">
-      <h3 class="text-2xl font-semibold mb-3 text-[#062C70]">Gestión de Noticias y Contenidos</h3>
-      <p class="text-gray-700">Panel administrativo para actualizar información institucional de forma dinámica y segura.</p>
+
+    <!-- Columna derecha -->
+    <div class="grid sm:grid-cols-2 gap-6">
+      <div class="bg-white rounded-xl p-5 shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-2 text-[#062C70]">Inicio con Navegación Ágil</h3>
+        <p class="text-gray-700 text-sm">Acceso rápido a noticias, comunicados y enlaces institucionales desde la portada.</p>
+      </div>
+      <div class="bg-white rounded-xl p-5 shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-2 text-[#062C70]">Gestión de Contenidos</h3>
+        <p class="text-gray-700 text-sm">Panel administrativo para actualizar información institucional de forma segura y dinámica.</p>
+      </div>
+      <div class="bg-white rounded-xl p-5 shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-2 text-[#062C70]">Diseño Adaptable</h3>
+        <p class="text-gray-700 text-sm">Interfaz compatible con móviles y navegadores modernos, cumpliendo estándares de accesibilidad.</p>
+      </div>
+      <div class="bg-white rounded-xl p-5 shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-2 text-[#062C70]">Recursos Externos</h3>
+        <p class="text-gray-700 text-sm">Accesos rápidos a plataformas académicas, administrativas y servicios institucionales en un solo sitio.</p>
+      </div>
+      <div class="bg-white rounded-xl p-5 shadow hover:shadow-lg transition sm:col-span-2">
+        <h3 class="text-xl font-semibold mb-2 text-[#062C70]">Seguridad y Optimización</h3>
+        <p class="text-gray-700 text-sm">Configuraciones de seguridad básicas, optimización de recursos y actualizaciones continuas en servidor propio.</p>
+      </div>
     </div>
-    <div class="bg-white rounded-xl p-6 shadow hover:shadow-lg transition">
-      <h3 class="text-2xl font-semibold mb-3 text-[#062C70]">Diseño Adaptable y Accesible</h3>
-      <p class="text-gray-700">Interfaz compatible con dispositivos móviles y navegadores modernos, cumpliendo estándares de accesibilidad.</p>
-    </div>
-    <div class="bg-white rounded-xl p-6 shadow hover:shadow-lg transition">
-      <h3 class="text-2xl font-semibold mb-3 text-[#062C70]">Integración de Recursos Externos</h3>
-      <p class="text-gray-700">Accesos rápidos a plataformas académicas, administrativas y servicios institucionales en un solo sitio.</p>
-    </div>
-    <div class="bg-white rounded-xl p-6 shadow hover:shadow-lg transition md:col-span-2">
-      <h3 class="text-2xl font-semibold mb-3 text-[#062C70]">Seguridad y Optimización</h3>
-      <p class="text-gray-700">Implementación de configuraciones de seguridad básicas, optimización de recursos y actualizaciones continuas en servidor propio.</p>
-    </div>
+
   </div>
 </section>
+
 
 
 <!-- Galería -->
