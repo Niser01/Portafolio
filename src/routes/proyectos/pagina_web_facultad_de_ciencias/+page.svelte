@@ -36,13 +36,6 @@
           </div>
         </div>
 
-        <!-- Call to Action -->
-        <div class="flex justify-center">
-          <a href="https://ciencias.bogota.unal.edu.co/" target="_blank" class="inline-block bg-blue-600 hover:bg-blue-700 text-white text-[16px] md:text-[18px] px-6 py-3 rounded-full transition">
-            Visitar Sitio Web →
-          </a>
-        </div>
-
       </div>
 
 

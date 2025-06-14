@@ -52,9 +52,23 @@
 
     <!-- PROYECTOS ACADÉMICOS -->
 
+    <!-- Conectify -->
+    <div class="border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
+      <img src="/conectify.png" alt="Conectify" class="rounded-lg mb-4 h-48 w-full object-contain">
+      <span class="bg-gray-100 text-gray-700 text-xs font-semibold px-2 py-0.5 rounded mb-2 inline-block">Proyecto Académico</span>
+      <h3 class="text-2xl font-semibold mb-2">Conectify</h3>
+      <p class="text-gray-600 mb-3">API REST de red social de contactos rápidos con Go, Echo y despliegue en Docker. Proyecto académico 2023.</p>
+      <div class="flex flex-wrap gap-2 mb-4">
+        <span class="bg-sky-100 text-sky-800 text-xs font-medium px-2.5 py-0.5 rounded">Go</span>
+        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Echo</span>
+        <span class="bg-teal-100 text-teal-800 text-xs font-medium px-2.5 py-0.5 rounded">Docker</span>
+      </div>
+      <a href="https://github.com/Niser01/conectify" target="_blank" class="text-blue-600 hover:underline">Ver en GitHub →</a>
+    </div>
+
     <!-- GENDY -->
     <div class="border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
-      <img src="/php.svg" alt="GENDY" class="rounded-lg mb-4 h-48 w-full object-contain">
+      <img src="/gendy.png" alt="GENDY" class="rounded-lg mb-4 h-48 w-full object-contain">
       <span class="bg-gray-100 text-gray-700 text-xs font-semibold px-2 py-0.5 rounded mb-2 inline-block">Proyecto Académico</span>
       <h3 class="text-2xl font-semibold mb-2">GENDY</h3>
       <p class="text-gray-600 mb-3">Sistema de generación de horarios en PHP con almacenamiento en MySQL y SQLite. Proyecto académico 2020.</p>
@@ -68,7 +82,7 @@
 
     <!-- ConectArte -->
     <div class="border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
-      <img src="/django.svg" alt="ConectArte" class="rounded-lg mb-4 h-48 w-full object-contain">
+      <img src="/conectarte.png" alt="ConectArte" class="rounded-lg mb-4 h-48 w-full object-contain">
       <span class="bg-gray-100 text-gray-700 text-xs font-semibold px-2 py-0.5 rounded mb-2 inline-block">Proyecto Académico</span>
       <h3 class="text-2xl font-semibold mb-2">ConectArte</h3>
       <p class="text-gray-600 mb-3">Plataforma cultural web en Django con frontend en HTML y CSS. Proyecto académico 2023.</p>
@@ -78,20 +92,6 @@
         <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">CSS</span>
       </div>
       <a href="https://github.com/Niser01/ConectArte" target="_blank" class="text-blue-600 hover:underline">Ver en GitHub →</a>
-    </div>
-
-    <!-- Conectify -->
-    <div class="border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
-      <img src="/go.svg" alt="Conectify" class="rounded-lg mb-4 h-48 w-full object-contain">
-      <span class="bg-gray-100 text-gray-700 text-xs font-semibold px-2 py-0.5 rounded mb-2 inline-block">Proyecto Académico</span>
-      <h3 class="text-2xl font-semibold mb-2">Conectify</h3>
-      <p class="text-gray-600 mb-3">API REST de red social de contactos rápidos con Go, Echo y despliegue en Docker. Proyecto académico 2023.</p>
-      <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-sky-100 text-sky-800 text-xs font-medium px-2.5 py-0.5 rounded">Go</span>
-        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Echo</span>
-        <span class="bg-teal-100 text-teal-800 text-xs font-medium px-2.5 py-0.5 rounded">Docker</span>
-      </div>
-      <a href="https://github.com/Niser01/Conectify" target="_blank" class="text-blue-600 hover:underline">Ver en GitHub →</a>
     </div>
 
     <!-- CADUN -->
@@ -106,7 +106,7 @@
         <span class="bg-teal-100 text-teal-800 text-xs font-medium px-2.5 py-0.5 rounded">Docker</span>
         <span class="bg-indigo-100 text-indigo-800 text-xs font-medium px-2.5 py-0.5 rounded">PostgreSQL</span>
       </div>
-      <a href="https://github.com/Niser01/CADUN" target="_blank" class="text-blue-600 hover:underline">Ver en GitHub →</a>
+      <a href="https://github.com/Niser01/CADUN_Users" target="_blank" class="text-blue-600 hover:underline">Ver en GitHub →</a>
     </div>
   </div>
 </section>
