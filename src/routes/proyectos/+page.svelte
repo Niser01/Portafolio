@@ -96,7 +96,7 @@
 
     <!-- CADUN -->
     <div class="border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
-      <img src="/go.svg" alt="CADUN" class="rounded-lg mb-4 h-48 w-full object-contain">
+      <img src="/cadun.png" alt="CADUN" class="rounded-lg mb-4 h-48 w-full object-contain">
       <span class="bg-gray-100 text-gray-700 text-xs font-semibold px-2 py-0.5 rounded mb-2 inline-block">Proyecto Académico</span>
       <h3 class="text-2xl font-semibold mb-2">CADUN</h3>
       <p class="text-gray-600 mb-3">API de consulta de datos de usuarios universitarios en Go, proyecto académico 2024 con despliegue local en Docker.</p>
