@@ -133,13 +133,9 @@
   <div class="max-w-7xl mx-auto px-6">
     <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
 
-      <!-- Video principal -->
+      <!-- Imagen principal -->
       <div class="col-span-2 md:col-span-2 row-span-2 overflow-hidden rounded-lg shadow-2xl">
-        <video controls class="w-full h-full object-cover rounded-lg">
-          <source src="/clip_demo.mp4" type="video/mp4" />
-          <track kind="captions" srclang="es" label="Español" src="" default />
-          Tu navegador no soporta video HTML5.
-        </video>
+        <img src="/facultad_ciencias.png" alt="Imagen principal" class="w-full h-full object-cover rounded-lg" />
       </div>
 
       <!-- Imagen 1 -->
@@ -149,32 +145,33 @@
 
       <!-- Imagen 2 -->
       <div>
-        <img src="/home2.png" alt="Home"  class="w-full h-full object-fill rounded-lg shadow" />
+        <img src="/home2.png" alt="Home" class="w-full h-full object-fill rounded-lg shadow" />
       </div>
 
       <!-- Imagen 3 -->
       <div class="col-span-2">
-        <img src="/MHN.png" alt="Museo"  class="w-full h-full object-fill rounded-lg shadow" />
+        <img src="/MHN.png" alt="Museo" class="w-full h-full object-fill rounded-lg shadow" />
       </div>
 
       <!-- Imagen 4 -->
       <div class="col-span-2">
-        <img src="/doctorados.png" alt="Doctorados"  class="w-full h-full object-fill rounded-lg shadow" />
+        <img src="/doctorados.png" alt="Doctorados" class="w-full h-full object-fill rounded-lg shadow" />
       </div>
 
       <!-- Imagen 5 -->
-      <div >
-        <img src="/movil1.png" alt="Movil"  class="w-full h-full object-fill rounded-lg shadow" />
+      <div>
+        <img src="/movil1.png" alt="Movil" class="w-full h-full object-fill rounded-lg shadow" />
       </div>
 
       <!-- Imagen 6 -->
-      <div >
-        <img src="/movil2.png" alt="Movil"  class="w-full h-full object-fill rounded-lg shadow" />
+      <div>
+        <img src="/movil2.png" alt="Movil" class="w-full h-full object-fill rounded-lg shadow" />
       </div>
 
     </div>
   </div>
 </section>
+
 
 <!-- Resultados y Aprendizajes -->
 <section id="resultados" class="py-16 bg-[#062C70] text-white">
