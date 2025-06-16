@@ -63,8 +63,9 @@
         <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Echo</span>
         <span class="bg-teal-100 text-teal-800 text-xs font-medium px-2.5 py-0.5 rounded">Docker</span>
       </div>
-      <a href="https://github.com/Niser01/conectify" target="_blank" class="text-blue-600 hover:underline">Ver en GitHub →</a>
+      <a href="/proyectos/conectify" class="text-blue-600 hover:underline font-medium">Ver más →</a>
     </div>
+
 
     <!-- GENDY -->
     <div class="border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
