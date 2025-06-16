@@ -1,6 +1,6 @@
 <section id="hero" class="relative min-h-[70vh] md:min-h-screen flex items-center justify-center text-white overflow-hidden">
   <!-- Fondo gradiente CSS -->
-  <div class="absolute inset-0 z-0" style="background: linear-gradient(-66deg, #0F172A 0%, #140544 100%);"></div>
+  <div class="absolute inset-0 z-0" style="background: linear-gradient(-66deg, #140544 0%, #0F172A 100%);"></div>
 
   <!-- Patrón de líneas SVG encima -->
   <div class="absolute inset-0 z-1 opacity-20">
