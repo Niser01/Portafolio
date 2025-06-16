@@ -3,18 +3,18 @@
   <div class="absolute inset-0 z-0" style="background: linear-gradient(-66deg, #140544 0%, #0F172A 100%);"></div>
 
   <!-- Patrón de líneas SVG encima -->
-  <div class="absolute inset-0 z-1 opacity-20">
-    <img src="/grid-pattern.svg" alt="Patrón de líneas" class="w-full h-full object-cover" />
+  <div class="absolute inset-0 z-10 mix-blend-overlay pointer-events-none">
+    <img src="/gridpattern.svg" alt="Patrón de líneas" class="w-full h-full object-cover" />
   </div>
 
   <!-- Glow decorativo -->
-  <div class="absolute w-[500px] h-[500px] rounded-full z-2 bottom-0 right-10 pointer-events-none">
+  <div class="absolute w-[500px] h-[500px] rounded-full z-20 bottom-0 right-10 pointer-events-none">
     <img src="/glow-circle.png" alt="Glow decorativo" class="w-full h-full" />
   </div>
 
   <!-- Contenido principal -->
-  <div class="w-full flex flex-col md:flex-row h-full relative z-4 max-w-7xl mx-auto px-4 py-12 md:py-0 items-center">
-    
+  <div class="w-full flex flex-col md:flex-row h-full relative z-30 max-w-7xl mx-auto px-4 py-12 md:py-0 items-center">
+
     <!-- Texto -->
     <div class="text-white w-full md:w-1/2 flex flex-col justify-center h-full space-y-6 text-center md:text-left">
       <div>
@@ -35,9 +35,14 @@
       </div>
     </div>
 
-    <!-- Laptop -->
-    <div class="md:w-1/2 h-full flex items-center justify-center relative mt-16 md:mt-0 hidden md:flex z-3">
-      <img src="/laptop.png" alt="Laptop" class="w-full max-w-lg mx-auto" />
+    <!-- Laptop con decoración -->
+    <div class="md:w-1/2 h-full flex items-center justify-center relative mt-16 md:mt-0 hidden md:flex z-20">
+      <!-- Decoration line -->
+      <div class="absolute w-[800px] h-[800px] -bottom-10 -right-10 z-10 pointer-events-none">
+        <img src="/decorationline.svg" alt="Decoración línea" class="w-full h-full" />
+      </div>
+      <!-- Laptop -->
+      <img src="/laptop.png" alt="Laptop" class="w-full max-w-[700px] mx-auto relative z-20" />
     </div>
 
   </div>
