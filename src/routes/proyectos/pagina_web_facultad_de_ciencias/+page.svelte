@@ -140,32 +140,32 @@
 
       <!-- Imagen 1 -->
       <div>
-        <img src="/publicaciones.png" alt="Publicaciones" class="w-full h-full object-fill rounded-lg shadow" />
+        <img src="/facultad_ciencias_publicaciones.png" alt="Publicaciones" class="w-full h-full object-fill rounded-lg shadow" />
       </div>
 
       <!-- Imagen 2 -->
       <div>
-        <img src="/home2.png" alt="Home" class="w-full h-full object-fill rounded-lg shadow" />
+        <img src="/facultad_ciencias_home2.png" alt="Home" class="w-full h-full object-fill rounded-lg shadow" />
       </div>
 
       <!-- Imagen 3 -->
       <div class="col-span-2">
-        <img src="/MHN.png" alt="Museo" class="w-full h-full object-fill rounded-lg shadow" />
+        <img src="/facultad_ciencias_MHN.png" alt="Museo" class="w-full h-full object-fill rounded-lg shadow" />
       </div>
 
       <!-- Imagen 4 -->
       <div class="col-span-2">
-        <img src="/doctorados.png" alt="Doctorados" class="w-full h-full object-fill rounded-lg shadow" />
+        <img src="/facultad_ciencias_doctorados.png" alt="Doctorados" class="w-full h-full object-fill rounded-lg shadow" />
       </div>
 
       <!-- Imagen 5 -->
       <div>
-        <img src="/movil1.png" alt="Movil" class="w-full h-full object-fill rounded-lg shadow" />
+        <img src="/facultad_ciencias_movil1.png" alt="Movil" class="w-full h-full object-fill rounded-lg shadow" />
       </div>
 
       <!-- Imagen 6 -->
       <div>
-        <img src="/movil2.png" alt="Movil" class="w-full h-full object-fill rounded-lg shadow" />
+        <img src="/facultad_ciencias_movil2.png" alt="Movil" class="w-full h-full object-fill rounded-lg shadow" />
       </div>
 
     </div>
