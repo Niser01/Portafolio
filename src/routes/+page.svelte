@@ -7,11 +7,6 @@
     <img src="/gridpattern.svg" alt="Patrón de líneas" class="w-full h-full object-cover" />
   </div>
 
-  <!-- Glow decorativo -->
-  <div class="absolute w-[500px] h-[500px] rounded-full z-20 bottom-0 right-10 pointer-events-none">
-    <img src="/glow-circle.png" alt="Glow decorativo" class="w-full h-full" />
-  </div>
-
   <!-- Contenido principal -->
   <div class="w-full flex flex-col md:flex-row h-full relative z-30 max-w-7xl mx-auto px-4 py-12 md:py-0 items-center">
 
@@ -35,11 +30,12 @@
       </div>
     </div>
 
-    <!-- Laptop con decoración -->
+    <!-- Laptop con glow vinculado -->
     <div class="md:w-1/2 h-full flex items-center justify-center relative mt-16 md:mt-0 hidden md:flex z-20">
-      <!-- Decoration line -->
-      <div class="absolute w-[800px] h-[800px] -bottom-10 -right-10 z-10 pointer-events-none">
-        <img src="/decorationline.svg" alt="Decoración línea" class="w-full h-full" />
+      <!-- Glow decorativo pegado al laptop -->
+      <div class="absolute w-[1000px] h-[1000px] rounded-full z-10 pointer-events-none 
+                  translate-x-[10%] -translate-y-[10%]">
+        <img src="/glow-circle.png" alt="Glow decorativo" class="w-full h-full" />
       </div>
       <!-- Laptop -->
       <img src="/laptop.png" alt="Laptop" class="w-full max-w-[700px] mx-auto relative z-20" />
@@ -47,8 +43,6 @@
 
   </div>
 </section>
-
-
 
 
 <section id="tecnologias" class="flex flex-col items-center bg-white px-4 py-20 max-w-7xl mx-auto border-t border-gray-200">
