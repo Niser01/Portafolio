@@ -1,7 +1,19 @@
 <section id="hero" class="relative min-h-[70vh] md:min-h-screen flex items-center justify-center text-white overflow-hidden">
-  <div class="absolute inset-0 z-0" style="background: linear-gradient(to right, #062C70 50%, black 150%);"></div>
+  <!-- Fondo gradiente CSS -->
+  <div class="absolute inset-0 z-0" style="background: linear-gradient(-66deg, #0F172A 0%, #140544 100%);"></div>
 
-  <div class="w-full flex flex-col md:flex-row h-full relative z-10 max-w-7xl mx-auto px-4 py-12 md:py-0 items-center">
+  <!-- Patrón de líneas SVG encima -->
+  <div class="absolute inset-0 z-1 opacity-20">
+    <img src="/grid-pattern.svg" alt="Patrón de líneas" class="w-full h-full object-cover" />
+  </div>
+
+  <!-- Glow decorativo -->
+  <div class="absolute w-[500px] h-[500px] rounded-full z-2 bottom-0 right-10 pointer-events-none">
+    <img src="/glow-circle.png" alt="Glow decorativo" class="w-full h-full" />
+  </div>
+
+  <!-- Contenido principal -->
+  <div class="w-full flex flex-col md:flex-row h-full relative z-4 max-w-7xl mx-auto px-4 py-12 md:py-0 items-center">
     
     <!-- Texto -->
     <div class="text-white w-full md:w-1/2 flex flex-col justify-center h-full space-y-6 text-center md:text-left">
@@ -23,14 +35,15 @@
       </div>
     </div>
 
-    <!-- Imagen (solo en desktop) -->
-    <div class="md:w-1/2 h-full flex items-center justify-center relative mt-16 md:mt-0 hidden md:flex">
-      <div class="w-72 h-72 md:w-96 md:h-96 bg-white rounded-full shadow-lg absolute z-0"></div>
-      <img src="/imagen_banner.png" alt="Mockup computador" class="w-72 h-72 md:w-[500px] md:h-[500px] object-contain relative z-10 opacity-0 translate-y-4 animate-fadeInUp"/>
+    <!-- Laptop -->
+    <div class="md:w-1/2 h-full flex items-center justify-center relative mt-16 md:mt-0 hidden md:flex z-3">
+      <img src="/laptop.png" alt="Laptop" class="w-full max-w-lg mx-auto" />
     </div>
 
   </div>
 </section>
+
+
 
 
 <section id="tecnologias" class="flex flex-col items-center bg-white px-4 py-20 max-w-7xl mx-auto border-t border-gray-200">
