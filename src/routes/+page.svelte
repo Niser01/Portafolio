@@ -8,7 +8,7 @@
   </div>
 
   <!-- Contenido principal -->
-  <div class="w-full flex flex-col md:flex-row h-full relative z-30 max-w-7xl mx-auto px-4 py-12 md:py-0 items-center">
+  <div class="w-full flex flex-col md:flex-row h-full relative z-30 max-w-7xl mx-auto py-12 md:py-0 items-center">
 
     <!-- Texto -->
     <div class="text-white w-full md:w-1/2 flex flex-col justify-center h-full space-y-6 text-center md:text-left">
@@ -33,12 +33,12 @@
     <!-- Laptop con glow vinculado -->
     <div class="md:w-1/2 h-full flex items-center justify-center relative mt-16 md:mt-0 hidden md:flex z-20">
       <!-- Glow decorativo pegado al laptop -->
-      <div class="absolute w-[800px] h-[800px] rounded-full z-10 pointer-events-none 
+      <div class="absolute w-[800px] h-[800px] rounded-full z-0 pointer-events-none 
                   translate-x-[25%] -translate-y-[10%]">
         <img src="/glow-circle.png" alt="Glow decorativo" class="w-full h-full" />
       </div>
       <!-- Laptop -->
-      <img src="/laptop.png" alt="Laptop" class="max-w-[750px] mx-auto relative z-20" />
+      <img src="/laptop.png" alt="Laptop" class="max-w-[700px] mx-auto relative z-1" />
     </div>
 
 
