@@ -33,13 +33,14 @@
     <!-- Laptop con glow vinculado -->
     <div class="md:w-1/2 h-full flex items-center justify-center relative mt-16 md:mt-0 hidden md:flex z-20">
       <!-- Glow decorativo pegado al laptop -->
-      <div class="absolute w-[1000px] h-[1000px] rounded-full z-10 pointer-events-none 
-                  translate-x-[10%] -translate-y-[10%]">
+      <div class="absolute w-[800px] h-[800px] rounded-full z-10 pointer-events-none 
+                  translate-x-[25%] -translate-y-[10%]">
         <img src="/glow-circle.png" alt="Glow decorativo" class="w-full h-full" />
       </div>
       <!-- Laptop -->
-      <img src="/laptop.png" alt="Laptop" class="w-full max-w-[700px] mx-auto relative z-20" />
+      <img src="/laptop.png" alt="Laptop" class="max-w-[750px] mx-auto relative z-20" />
     </div>
+
 
   </div>
 </section>
