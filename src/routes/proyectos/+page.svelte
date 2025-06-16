@@ -63,7 +63,7 @@
         <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Echo</span>
         <span class="bg-teal-100 text-teal-800 text-xs font-medium px-2.5 py-0.5 rounded">Docker</span>
       </div>
-      <a href="/proyectos/conectify" class="text-blue-600 hover:underline font-medium">Ver más →</a>
+      <a href="/proyectos/conectify" class="text-blue-600 hover:underline">Ver más →</a>
     </div>
 
 
@@ -78,7 +78,7 @@
         <span class="bg-indigo-100 text-indigo-800 text-xs font-medium px-2.5 py-0.5 rounded">MySQL</span>
         <span class="bg-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">SQLite</span>
       </div>
-      <a href="https://github.com/Niser01/GENDY" target="_blank" class="text-blue-600 hover:underline">Ver en GitHub →</a>
+      <a href="/proyectos/gendy" class="text-blue-600 hover:underline">Ver más →</a>
     </div>
 
     <!-- ConectArte -->
@@ -92,7 +92,7 @@
         <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded">HTML</span>
         <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">CSS</span>
       </div>
-      <a href="https://github.com/Niser01/ConectArte" target="_blank" class="text-blue-600 hover:underline">Ver en GitHub →</a>
+      <a href="/proyectos/conectarte" class="text-blue-600 hover:underline">Ver más →</a>
     </div>
 
     <!-- CADUN -->
@@ -107,7 +107,7 @@
         <span class="bg-teal-100 text-teal-800 text-xs font-medium px-2.5 py-0.5 rounded">Docker</span>
         <span class="bg-indigo-100 text-indigo-800 text-xs font-medium px-2.5 py-0.5 rounded">PostgreSQL</span>
       </div>
-      <a href="https://github.com/Niser01/CADUN_Users" target="_blank" class="text-blue-600 hover:underline">Ver en GitHub →</a>
+      <a href="/proyectos/cadun" class="text-blue-600 hover:underline">Ver más →</a>
     </div>
   </div>
 </section>

@@ -5,12 +5,18 @@
     <div>
       <h1 class="text-6xl leading-tight font-bold mb-6">Conectify</h1>
       <p class="text-xl mb-6">API REST para una red social de contactos rápidos, desarrollada con Go, Echo y desplegada en Docker. Proyecto académico de 2023.</p>
-      <div class="flex flex-wrap gap-2 mb-6">
-        <span class="bg-sky-100 text-sky-800 text-m font-medium px-2.5 py-0.5 rounded">Go</span>
-        <span class="bg-purple-100 text-purple-800 text-m font-medium px-2.5 py-0.5 rounded">Echo</span>
-        <span class="bg-teal-100 text-teal-800 text-m font-medium px-2.5 py-0.5 rounded">Docker</span>
-        <span class="bg-lime-100 text-lime-800 text-m font-medium px-2.5 py-0.5 rounded">Backend API</span>
-      </div>
+        <div class="flex flex-wrap gap-2 mb-6">
+          <span class="bg-yellow-100 text-yellow-800 text-m font-medium px-2.5 py-0.5 rounded">Backend</span>
+          <span class="bg-yellow-100 text-yellow-800 text-m font-medium px-2.5 py-0.5 rounded">Microservicio de Autenticación</span>
+          <span class="bg-rose-100 text-rose-800 text-m font-medium px-2.5 py-0.5 rounded">Gestión de Contactos</span>
+          <span class="bg-green-100 text-green-800 text-m font-medium px-2.5 py-0.5 rounded">API RESTful</span>
+          <span class="bg-blue-100 text-blue-800 text-m font-medium px-2.5 py-0.5 rounded">Contenerización Docker</span>
+          <span class="bg-indigo-100 text-indigo-800 text-m font-medium px-2.5 py-0.5 rounded">Frontend Móvil</span>
+          <span class="bg-cyan-100 text-cyan-800 text-m font-medium px-2.5 py-0.5 rounded">Seguridad y Proxy Inverso</span>
+          <span class="bg-fuchsia-100 text-fuchsia-800 text-m font-medium px-2.5 py-0.5 rounded">Despliegue en Cloud</span>
+        </div>
+
+
       <p class="text-m text-gray-300 mb-6">
         Industria: <span class="text-white font-bold">Tecnología</span> &nbsp;|&nbsp; Año: <span class="text-white font-bold">2023</span>
       </p>
@@ -49,12 +55,16 @@
         <p class="mt-2 font-medium">Go</p>
       </div>
       <div>
-        <img src="/echo.svg" alt="Echo" class="h-15 mx-auto transition-transform duration-300 hover:scale-110">
+        <img src="/echo.svg" alt="Echo" class="h-20 mx-auto transition-transform duration-300 hover:scale-110">
         <p class="mt-2 font-medium">Echo</p>
       </div>
       <div>
         <img src="/docker.svg" alt="Docker" class="h-20 mx-auto transition-transform duration-300 hover:scale-110">
         <p class="mt-2 font-medium">Docker</p>
+      </div>
+      <div>
+        <img src="/googlecloud.svg" alt="Google Cloud" class="h-20 mx-auto transition-transform duration-300 hover:scale-110">
+        <p class="mt-2 font-medium">Google Cloud</p>
       </div>
       <div>
         <img src="/git.svg" alt="Git" class="h-20 mx-auto transition-transform duration-300 hover:scale-110">
@@ -74,7 +84,9 @@
     <div>
       <h2 class="text-4xl font-bold mb-6 text-[#062C70]">Funcionalidades Principales</h2>
       <p class="text-lg text-gray-700 leading-relaxed">
-        Conectify permite gestionar usuarios y contactos de forma rápida mediante una API REST eficiente, con operaciones CRUD y autenticación básica.
+        Conectify permite gestionar usuarios y contactos de forma rápida mediante una API REST eficiente, con operaciones CRUD y autenticación básica. 
+        Durante el proyecto, fui responsable del desarrollo del microservicio de usuarios y participé en la implementación de la interfaz móvil, 
+        mientras que el frontend web y los demás microservicios estuvieron a cargo de mis compañeros de equipo.
       </p>
     </div>
 
@@ -98,6 +110,7 @@
     </div>
   </div>
 </section>
+
 
 <!-- Galería -->
 <section id="galeria" class="bg-gray-100 py-16">
