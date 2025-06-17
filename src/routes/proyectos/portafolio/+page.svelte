@@ -1,35 +1,46 @@
-<!-- Hero / Banner -->
-<section id="hero" class="bg-[#062C70] text-white py-50">
-  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center px-6">
+<div class="relative overflow-hidden">
+  <!-- Fondo gradiente -->
+  <div class="absolute inset-0 z-0" style="background: linear-gradient(-66deg, #140544 0%, #0F172A 100%);"></div>
 
-    <!-- Lado izquierdo -->
-    <div>
-      <h1 class="text-6xl leading-tight font-bold mb-6">Portafolio Personal</h1>
-      <p class="text-xl mb-6">Desarrollo de un portafolio web minimalista, responsivo y rápido, creado con Svelte y Tailwind CSS, desplegado en Vercel para mostrar mis proyectos, tecnologías y trayectoria profesional.</p>
+  <!-- Patrón de líneas SVG -->
+  <div class="absolute inset-0 z-10 mix-blend-overlay pointer-events-none">
+    <img src="/gridpattern.svg" alt="Patrón de líneas" class="w-full h-full object-cover" />
+  </div>
+
+  <!-- Hero / Banner contenido -->
+  <section id="hero" class="relative z-20 text-white py-50">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center px-6">
+
+      <!-- Lado izquierdo -->
+      <div>
+        <h1 class="text-6xl leading-tight font-bold mb-6">Portafolio Personal</h1>
+        <p class="text-xl mb-6">Desarrollo de un portafolio web minimalista, responsivo y rápido, creado con Svelte y Tailwind CSS, desplegado en Vercel para mostrar mis proyectos, tecnologías y trayectoria profesional.</p>
+
         <div class="flex flex-wrap gap-2 mb-6">
-        <span class="bg-cyan-100 text-cyan-800 text-m font-medium px-2.5 py-0.5 rounded">Frontend</span>
-        <span class="bg-fuchsia-100 text-fuchsia-800 text-m font-medium px-2.5 py-0.5 rounded">UX/UI</span>
-        <span class="bg-lime-100 text-lime-800 text-m font-medium px-2.5 py-0.5 rounded">Responsive</span>
-        <span class="bg-indigo-100 text-indigo-800 text-m font-medium px-2.5 py-0.5 rounded">Despliegue Web</span>
+          <span class="bg-cyan-100 text-cyan-800 text-m font-medium px-2.5 py-0.5 rounded">Frontend</span>
+          <span class="bg-fuchsia-100 text-fuchsia-800 text-m font-medium px-2.5 py-0.5 rounded">UX/UI</span>
+          <span class="bg-lime-100 text-lime-800 text-m font-medium px-2.5 py-0.5 rounded">Responsive</span>
+          <span class="bg-indigo-100 text-indigo-800 text-m font-medium px-2.5 py-0.5 rounded">Despliegue Web</span>
         </div>
 
+        <p class="text-m text-gray-300 mb-6">
+          Industria: <span class="text-white font-bold">Tecnología</span> &nbsp;|&nbsp; Año: <span class="text-white font-bold">2025</span>
+        </p>
+      </div>
 
-      <p class="text-m text-gray-300 mb-6">
-        Industria: <span class="text-white font-bold">Tecnología</span> &nbsp;|&nbsp; Año: <span class="text-white font-bold">2025</span>
-      </p>
-    </div>
-
-    <!-- Lado derecho -->
-    <div class="space-y-4">
-      <div class="hidden md:block">
-        <div class="aspect-[4/3] overflow-hidden rounded-lg drop-shadow-2xl">
-          <img src="/portafolio.png" alt="Portafolio Personal" class="object-cover w-full h-full" />
+      <!-- Lado derecho -->
+      <div class="space-y-4">
+        <div class="hidden md:block">
+          <div class="aspect-[4/3] overflow-hidden rounded-lg drop-shadow-2xl">
+            <img src="/portafolio.png" alt="Portafolio Personal" class="object-cover w-full h-full" />
+          </div>
         </div>
       </div>
-    </div>
 
-  </div>
-</section>
+    </div>
+  </section>
+</div>
+
 
 <!-- Tecnologías -->
 <section id="tecnologias" class="bg-gray-100 py-16 px-6">

@@ -1,46 +1,46 @@
-<!-- Hero / Banner -->
-<section id="hero" class="bg-[#062C70] text-white py-50">
-  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center px-6">
+<div class="relative overflow-hidden">
+  <!-- Fondo gradiente -->
+  <div class="absolute inset-0 z-0" style="background: linear-gradient(-66deg, #140544 0%, #0F172A 100%);"></div>
 
-    <!-- Lado izquierdo -->
-    <div>
+  <!-- Patrón de líneas SVG -->
+  <div class="absolute inset-0 z-10 mix-blend-overlay pointer-events-none">
+    <img src="/gridpattern.svg" alt="Patrón de líneas" class="w-full h-full object-cover" />
+  </div>
 
-      <!-- Título -->
-      <h1 class="text-6xl leading-tight font-bold mb-6">Proyecto Web Facultad de Ciencias</h1>
+  <!-- Hero / Banner contenido -->
+  <section id="hero" class="relative z-20 text-white py-50">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center px-6">
 
-      <!-- Descripción -->
-      <p class="text-xl mb-6">Desarrollo de un portal institucional accesible, adaptable y seguro para la comunidad académica de la Facultad de Ciencias de la Universidad Nacional de Colombia.</p>
-      <!-- Servicios ofrecidos -->
-      <div class="flex flex-wrap gap-2 mb-6">
-        <span class="bg-cyan-100 text-cyan-800 text-m font-medium px-2.5 py-0.5 rounded">Frontend</span>
-        <span class="bg-rose-100 text-rose-800 text-m font-medium px-2.5 py-0.5 rounded">UX/UI</span>
-        <span class="bg-indigo-100 text-indigo-800 text-m font-medium px-2.5 py-0.5 rounded">Despliegue Web</span>
-        <span class="bg-amber-100 text-amber-800 text-m font-medium px-2.5 py-0.5 rounded">Accesibilidad</span>
+      <!-- Lado izquierdo -->
+      <div>
+        <h1 class="text-6xl leading-tight font-bold mb-6">Proyecto Web Facultad de Ciencias</h1>
+        <p class="text-xl mb-6">Desarrollo de un portal institucional accesible, adaptable y seguro para la comunidad académica de la Facultad de Ciencias de la Universidad Nacional de Colombia.</p>
+
+        <div class="flex flex-wrap gap-2 mb-6">
+          <span class="bg-cyan-100 text-cyan-800 text-m font-medium px-2.5 py-0.5 rounded">Frontend</span>
+          <span class="bg-rose-100 text-rose-800 text-m font-medium px-2.5 py-0.5 rounded">UX/UI</span>
+          <span class="bg-indigo-100 text-indigo-800 text-m font-medium px-2.5 py-0.5 rounded">Despliegue Web</span>
+          <span class="bg-amber-100 text-amber-800 text-m font-medium px-2.5 py-0.5 rounded">Accesibilidad</span>
+        </div>
+
+        <p class="text-m text-gray-300 mb-6">
+          Industria: <span class="text-white font-bold">Educación</span> &nbsp;|&nbsp; Año: <span class="text-white font-bold">2024</span>
+        </p>
       </div>
-
-      <!-- Industria y año -->
-      <p class="text-m text-gray-300 mb-6">
-        Industria: <span class="text-white font-bold">Educación</span> &nbsp;|&nbsp; Año: <span class="text-white font-bold">2024</span>
-      </p>
-
-
-    </div>
 
       <!-- Lado derecho -->
       <div class="space-y-4">
-
-        <!-- Imagen (oculta en móvil) -->
         <div class="hidden md:block">
           <div class="aspect-[4/3] overflow-hidden rounded-lg drop-shadow-2xl">
             <img src="/facultad_ciencias.png" alt="Facultad Ciencias" class="object-cover w-full h-full" />
           </div>
         </div>
-
       </div>
 
+    </div>
+  </section>
+</div>
 
-  </div>
-</section>
 
 
 

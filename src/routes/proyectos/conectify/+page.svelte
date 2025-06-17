@@ -1,10 +1,20 @@
-<!-- Hero / Banner -->
-<section id="hero" class="bg-[#062C70] text-white py-50">
-  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center px-6">
-    <!-- Lado izquierdo -->
-    <div>
-      <h1 class="text-6xl leading-tight font-bold mb-6">Conectify</h1>
-      <p class="text-xl mb-6">API REST para una red social de contactos rápidos, desarrollada con Go, Echo y desplegada en Docker. Proyecto académico de 2023.</p>
+<div class="relative overflow-hidden">
+  <!-- Fondo gradiente -->
+  <div class="absolute inset-0 z-0" style="background: linear-gradient(-66deg, #140544 0%, #0F172A 100%);"></div>
+
+  <!-- Patrón de líneas SVG -->
+  <div class="absolute inset-0 z-10 mix-blend-overlay pointer-events-none">
+    <img src="/gridpattern.svg" alt="Patrón de líneas" class="w-full h-full object-cover" />
+  </div>
+
+  <!-- Hero / Banner contenido -->
+  <section id="hero" class="relative z-20 text-white py-50">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center px-6">
+      <!-- Lado izquierdo -->
+      <div>
+        <h1 class="text-6xl leading-tight font-bold mb-6">Conectify</h1>
+        <p class="text-xl mb-6">API REST para una red social de contactos rápidos, desarrollada con Go, Echo y desplegada en Docker. Proyecto académico de 2023.</p>
+
         <div class="flex flex-wrap gap-2 mb-6">
           <span class="bg-yellow-100 text-yellow-800 text-m font-medium px-2.5 py-0.5 rounded">Backend</span>
           <span class="bg-yellow-100 text-yellow-800 text-m font-medium px-2.5 py-0.5 rounded">Microservicio de Autenticación</span>
@@ -16,32 +26,33 @@
           <span class="bg-fuchsia-100 text-fuchsia-800 text-m font-medium px-2.5 py-0.5 rounded">Despliegue en Cloud</span>
         </div>
 
+        <p class="text-m text-gray-300 mb-6">
+          Industria: <span class="text-white font-bold">Tecnología</span> &nbsp;|&nbsp; Año: <span class="text-white font-bold">2023</span>
+        </p>
+      </div>
 
-      <p class="text-m text-gray-300 mb-6">
-        Industria: <span class="text-white font-bold">Tecnología</span> &nbsp;|&nbsp; Año: <span class="text-white font-bold">2023</span>
-      </p>
-    </div>
-    <!-- Lado derecho -->
-    <div class="space-y-6">
-      <div class="hidden md:block">
-        <div class="aspect-[4/3] overflow-hidden rounded-lg drop-shadow-2xl">
-          <img src="/conectifylight.png" alt="Conectify" class="object-contain w-full h-full" />
+      <!-- Lado derecho -->
+      <div class="space-y-6">
+        <div class="hidden md:block">
+          <div class="aspect-[4/3] overflow-hidden rounded-lg drop-shadow-2xl">
+            <img src="/conectifylight.png" alt="Conectify" class="object-contain w-full h-full" />
+          </div>
+        </div>
+
+        <!-- CTA debajo de la imagen -->
+        <div class="text-center">
+          <a href="https://github.com/Niser01/conectify" target="_blank"
+            class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full transition">
+            <img src="/github.svg" alt="GitHub" class="w-5 h-5" />
+            Ver en GitHub
+            <span class="text-lg">→</span>
+          </a>
         </div>
       </div>
-    <!-- CTA debajo de la imagen -->
-    <div class="text-center">
-    <a href="https://github.com/Niser01/conectify" target="_blank"
-        class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full transition">
-        <img src="/github.svg" alt="GitHub" class="w-5 h-5" />
-        Ver en GitHub
-        <span class="text-lg">→</span>
-    </a>
     </div>
+  </section>
+</div>
 
-
-    </div>
-  </div>
-</section>
 
 
 
