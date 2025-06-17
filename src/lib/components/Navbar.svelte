@@ -1,8 +1,14 @@
 <script lang="ts">
+  import { page } from '$app/stores';
+  import { derived } from 'svelte/store';
+
   export let sections: { name: string; href: string }[] = [];
 
   let menuOpen = false;
   const toggleMenu = () => menuOpen = !menuOpen;
+
+  // Store para la ruta actual
+  const currentPath = derived(page, ($page) => $page.url.pathname);
 </script>
 
 <nav class="bg-[#0F172A] py-6 fixed top-0 left-0 w-full z-50 shadow">
@@ -25,7 +31,15 @@
     <!-- Navegación normal (desktop) -->
     <div class="hidden lg:flex flex-1 justify-center space-x-8">
       {#each sections as section}
-        <a href={section.href} class="text-gray-300 hover:text-white transition">{section.name}</a>
+        <a
+          href={section.href}
+          class="text-gray-300 hover:text-white transition relative"
+        >
+          <span>{section.name}</span>
+          {#if section.href === $currentPath}
+            <span class="absolute -bottom-1 left-0 w-full h-1 bg-blue-600 rounded"></span>
+          {/if}
+        </a>
       {/each}
     </div>
 
@@ -60,5 +74,3 @@
     </div>
   </div>
 {/if}
-
-
