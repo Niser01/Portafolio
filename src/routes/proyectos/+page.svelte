@@ -20,9 +20,6 @@
         <span class="bg-sky-100 text-sky-800 text-xs font-medium px-2.5 py-0.5 rounded">Go</span>
         <span class="bg-indigo-100 text-indigo-800 text-xs font-medium px-2.5 py-0.5 rounded">PostgreSQL</span>
         <span class="bg-pink-100 text-pink-800 text-xs font-medium px-2.5 py-0.5 rounded">Svelte</span>
-        <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">Neon</span>
-        <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Render</span>
-        <span class="bg-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Vercel</span>
         <span class="bg-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Git</span>
       </div>
       <span class="text-blue-600 hover:underline">Ver más →</span>
@@ -31,6 +28,7 @@
     <!-- To-Do List -->
     <a href="https://github.com/Niser01/API-ToDo-List" target="_blank" rel="noopener noreferrer" class="block border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
       <img src="/todolist.svg" alt="To-Do List App" class="rounded-lg mb-4 h-48 w-full object-contain">
+      <span class="bg-gray-100 text-gray-700 text-xs font-semibold px-2 py-0.5 rounded mb-2 inline-block">Proyecto Personal</span>
       <h3 class="text-2xl font-semibold mb-2">To-Do List App</h3>
       <p class="text-gray-600 mb-3">App de tareas fullstack en desarrollo con Go, PostgreSQL y GraphQL, con frontend planeado en Svelte y API Gateway propio.</p>
       <div class="flex flex-wrap gap-2 mb-4">
