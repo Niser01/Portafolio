@@ -9,8 +9,27 @@
   </p>
 
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-    <!-- Proyecto 1 -->
-    <div class="border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
+
+    <!-- Pack&Track -->
+    <a href="/proyectos/pack_and_track" class="block border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
+      <img src="/P&T_Naranja.svg" alt="Pack&Track" class="rounded-lg mb-4 h-48 w-full object-contain">
+      <span class="bg-gray-100 text-gray-700 text-xs font-semibold px-2 py-0.5 rounded mb-2 inline-block">Proyecto Personal</span>
+      <h3 class="text-2xl font-semibold mb-2">Pack&Track</h3>
+      <p class="text-gray-600 mb-3">Sistema de seguimiento de paquetes con backend en Go y PostgreSQL, frontend en Svelte y despliegue cloud en Render, Neon y Vercel.</p>
+      <div class="flex flex-wrap gap-2 mb-4">
+        <span class="bg-sky-100 text-sky-800 text-xs font-medium px-2.5 py-0.5 rounded">Go</span>
+        <span class="bg-indigo-100 text-indigo-800 text-xs font-medium px-2.5 py-0.5 rounded">PostgreSQL</span>
+        <span class="bg-pink-100 text-pink-800 text-xs font-medium px-2.5 py-0.5 rounded">Svelte</span>
+        <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">Neon</span>
+        <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Render</span>
+        <span class="bg-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Vercel</span>
+        <span class="bg-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Git</span>
+      </div>
+      <span class="text-blue-600 hover:underline">Ver más →</span>
+    </a>
+
+    <!-- To-Do List -->
+    <a href="https://github.com/Niser01/API-ToDo-List" target="_blank" rel="noopener noreferrer" class="block border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
       <img src="/todolist.svg" alt="To-Do List App" class="rounded-lg mb-4 h-48 w-full object-contain">
       <h3 class="text-2xl font-semibold mb-2">To-Do List App</h3>
       <p class="text-gray-600 mb-3">App de tareas fullstack en desarrollo con Go, PostgreSQL y GraphQL, con frontend planeado en Svelte y API Gateway propio.</p>
@@ -20,11 +39,11 @@
         <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">GraphQL</span>
         <span class="bg-pink-100 text-pink-800 text-xs font-medium px-2.5 py-0.5 rounded">Svelte</span>
       </div>
-      <a href="https://github.com/Niser01/API-ToDo-List" target="_blank" class="text-blue-600 hover:underline">Ver en GitHub →</a>
-    </div>
+      <span class="text-blue-600 hover:underline">Ver en GitHub →</span>
+    </a>
 
-    <!-- Proyecto 2 -->
-    <div class="border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
+    <!-- Portafolio -->
+    <a href="/proyectos/portafolio" class="block border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
       <img src="/portafolio.png" alt="Portafolio Personal" class="rounded-lg mb-4 h-48 w-full object-cover">
       <h3 class="text-2xl font-semibold mb-2">Portafolio Personal</h3>
       <p class="text-gray-600 mb-3">Mi portafolio web minimalista, rápido y responsivo desarrollado con Svelte y Tailwind CSS, alojado en Vercel.</p>
@@ -33,11 +52,11 @@
         <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">Tailwind</span>
         <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Vercel</span>
       </div>
-      <a href="/proyectos/portafolio" class="text-blue-600 hover:underline">Ver más →</a>
-    </div>
+      <span class="text-blue-600 hover:underline">Ver más →</span>
+    </a>
 
-    <!-- Proyecto 3 -->
-    <div class="border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
+    <!-- Facultad Ciencias -->
+    <a href="/proyectos/pagina_web_facultad_de_ciencias" class="block border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
       <img src="/facultad_ciencias.png" alt="Facultad Ciencias" class="rounded-lg mb-4 h-48 w-full object-cover">
       <h3 class="text-2xl font-semibold mb-2">Página Web Facultad de Ciencias - UNAL</h3>
       <p class="text-gray-600 mb-3">Sitio institucional desarrollado y desplegado con rediseño completo y migración de contenidos.</p>
@@ -47,13 +66,11 @@
         <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">WordPress</span>
         <span class="bg-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Apache</span>
       </div>
-      <a href="/proyectos/pagina_web_facultad_de_ciencias" class="text-blue-600 hover:underline">Ver más →</a>
-    </div>
-
-    <!-- PROYECTOS ACADÉMICOS -->
+      <span class="text-blue-600 hover:underline">Ver más →</span>
+    </a>
 
     <!-- Conectify -->
-    <div class="border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
+    <a href="/proyectos/conectify" class="block border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
       <img src="/conectify.png" alt="Conectify" class="rounded-lg mb-4 h-48 w-full object-contain">
       <span class="bg-gray-100 text-gray-700 text-xs font-semibold px-2 py-0.5 rounded mb-2 inline-block">Proyecto Académico</span>
       <h3 class="text-2xl font-semibold mb-2">Conectify</h3>
@@ -63,12 +80,11 @@
         <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Echo</span>
         <span class="bg-teal-100 text-teal-800 text-xs font-medium px-2.5 py-0.5 rounded">Docker</span>
       </div>
-      <a href="/proyectos/conectify" class="text-blue-600 hover:underline">Ver más →</a>
-    </div>
-
+      <span class="text-blue-600 hover:underline">Ver más →</span>
+    </a>
 
     <!-- GENDY -->
-    <div class="border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
+    <a href="/proyectos/gendy" class="block border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
       <img src="/gendy.png" alt="GENDY" class="rounded-lg mb-4 h-48 w-full object-contain">
       <span class="bg-gray-100 text-gray-700 text-xs font-semibold px-2 py-0.5 rounded mb-2 inline-block">Proyecto Académico</span>
       <h3 class="text-2xl font-semibold mb-2">GENDY</h3>
@@ -78,11 +94,11 @@
         <span class="bg-indigo-100 text-indigo-800 text-xs font-medium px-2.5 py-0.5 rounded">MySQL</span>
         <span class="bg-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">SQLite</span>
       </div>
-      <a href="/proyectos/gendy" class="text-blue-600 hover:underline">Ver más →</a>
-    </div>
+      <span class="text-blue-600 hover:underline">Ver más →</span>
+    </a>
 
     <!-- ConectArte -->
-    <div class="border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
+    <a href="/proyectos/conectarte" class="block border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
       <img src="/conectarte.png" alt="ConectArte" class="rounded-lg mb-4 h-48 w-full object-contain">
       <span class="bg-gray-100 text-gray-700 text-xs font-semibold px-2 py-0.5 rounded mb-2 inline-block">Proyecto Académico</span>
       <h3 class="text-2xl font-semibold mb-2">ConectArte</h3>
@@ -92,11 +108,11 @@
         <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded">HTML</span>
         <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">CSS</span>
       </div>
-      <a href="/proyectos/conectarte" class="text-blue-600 hover:underline">Ver más →</a>
-    </div>
+      <span class="text-blue-600 hover:underline">Ver más →</span>
+    </a>
 
     <!-- CADUN -->
-    <div class="border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
+    <a href="/proyectos/cadun" class="block border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
       <img src="/cadun.png" alt="CADUN" class="rounded-lg mb-4 h-48 w-full object-contain">
       <span class="bg-gray-100 text-gray-700 text-xs font-semibold px-2 py-0.5 rounded mb-2 inline-block">Proyecto Académico</span>
       <h3 class="text-2xl font-semibold mb-2">CADUN</h3>
@@ -107,7 +123,8 @@
         <span class="bg-teal-100 text-teal-800 text-xs font-medium px-2.5 py-0.5 rounded">Docker</span>
         <span class="bg-indigo-100 text-indigo-800 text-xs font-medium px-2.5 py-0.5 rounded">PostgreSQL</span>
       </div>
-      <a href="/proyectos/cadun" class="text-blue-600 hover:underline">Ver más →</a>
-    </div>
+      <span class="text-blue-600 hover:underline">Ver más →</span>
+    </a>
+
   </div>
 </section>
