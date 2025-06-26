@@ -64,9 +64,8 @@
       <div><img src="/go.svg" alt="Go" class="h-20 mx-auto hover:scale-110 transition" /><p class="mt-2 font-medium">Go</p></div>
       <div><img src="/svelte.svg" alt="Svelte" class="h-20 mx-auto hover:scale-110 transition" /><p class="mt-2 font-medium">Svelte</p></div>
       <div><img src="/neon.svg" alt="Neon" class="h-20 mx-auto hover:scale-110 transition" /><p class="mt-2 font-medium">Neon</p></div>
-      <div><img src="/vercel.svg" alt="Vercel" class="h-20 mx-auto hover:scale-110 transition" /><p class="mt-2 font-medium">Vercel</p></div>
       <div><img src="/render.svg" alt="Render" class="h-20 mx-auto hover:scale-110 transition" /><p class="mt-2 font-medium">Render</p></div>
-
+      <div><img src="/vercel.svg" alt="Vercel" class="h-20 mx-auto hover:scale-110 transition" /><p class="mt-2 font-medium">Vercel</p></div>    
     </div>
   </div>
 </section>
