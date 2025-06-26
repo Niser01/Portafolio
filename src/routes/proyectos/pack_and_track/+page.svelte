@@ -14,9 +14,9 @@
         <h1 class="text-6xl leading-tight font-bold mb-6">Pack&Track</h1>
         <p class="text-xl mb-6">Sistema de seguimiento de paquetes en tiempo real y gestión de entregas para optimizar procesos logísticos y mejorar la trazabilidad de envíos.</p>
         <div class="flex flex-wrap gap-2 mb-6">
-          <span class="bg-cyan-100 text-cyan-800 text-m font-medium px-2.5 py-0.5 rounded">Backend</span>
-          <span class="bg-rose-100 text-rose-800 text-m font-medium px-2.5 py-0.5 rounded">Frontend</span>
-          <span class="bg-indigo-100 text-indigo-800 text-m font-medium px-2.5 py-0.5 rounded">API REST</span>
+          <span class="bg-cyan-100 text-cyan-800 text-m font-medium px-2.5 py-0.5 rounded">DataBase</span>
+          <span class="bg-rose-100 text-rose-800 text-m font-medium px-2.5 py-0.5 rounded">Backend</span>
+          <span class="bg-indigo-100 text-indigo-800 text-m font-medium px-2.5 py-0.5 rounded">Frontend</span>
           <span class="bg-amber-100 text-amber-800 text-m font-medium px-2.5 py-0.5 rounded">Cloud Hosting</span>
         </div>
         <p class="text-m text-gray-300 mb-6">
