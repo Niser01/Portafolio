@@ -33,7 +33,7 @@
 
         <!-- CTA doble -->
         <div class="flex flex-col items-center gap-3">
-          <a href="https://github.com/Niser01/PackTrack" target="_blank"
+          <a href="https://github.com/Niser01/RegistroYSeguimientoDeEnvios" target="_blank"
             class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full transition text-sm">
             <img src="/github.svg" alt="GitHub" class="w-4 h-4" />
             Ver en GitHub
