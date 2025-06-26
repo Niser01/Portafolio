@@ -59,61 +59,83 @@
 <section class="bg-gray-100 py-16 px-6">
   <div class="max-w-7xl mx-auto">
     <h2 class="text-4xl font-bold mb-15 text-[#062C70] text-center">Tecnologías Utilizadas</h2>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-      <div><img src="/go.svg" alt="Go" class="h-20 mx-auto hover:scale-110 transition" /><p class="mt-2 font-medium">Go</p></div>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-8 text-center">
       <div><img src="/postgresql.svg" alt="PostgreSQL" class="h-20 mx-auto hover:scale-110 transition" /><p class="mt-2 font-medium">PostgreSQL</p></div>
+      <div><img src="/go.svg" alt="Go" class="h-20 mx-auto hover:scale-110 transition" /><p class="mt-2 font-medium">Go</p></div>
       <div><img src="/svelte.svg" alt="Svelte" class="h-20 mx-auto hover:scale-110 transition" /><p class="mt-2 font-medium">Svelte</p></div>
       <div><img src="/neon.svg" alt="Neon" class="h-20 mx-auto hover:scale-110 transition" /><p class="mt-2 font-medium">Neon</p></div>
       <div><img src="/vercel.svg" alt="Vercel" class="h-20 mx-auto hover:scale-110 transition" /><p class="mt-2 font-medium">Vercel</p></div>
       <div><img src="/render.svg" alt="Render" class="h-20 mx-auto hover:scale-110 transition" /><p class="mt-2 font-medium">Render</p></div>
-      <div><img src="/git.svg" alt="Git" class="h-20 mx-auto hover:scale-110 transition" /><p class="mt-2 font-medium">Git</p></div>
+
     </div>
   </div>
 </section>
 
+<!-- Descripción del Proyecto -->
+<section class="py-16 max-w-7xl mx-auto px-6 bg-white">
+  <div class="text-center">
+    <h2 class="text-4xl font-bold mb-6 text-[#062C70]">Sobre el Proyecto</h2>
+    <p class="text-lg text-gray-700 leading-relaxed">
+      <strong>Pack&Track</strong> es una empresa ficticia creada únicamente con fines académicos y demostrativos. Este proyecto forma parte de mi portafolio personal, desarrollado para exponer mis habilidades como desarrollador <strong>fullstack</strong>, abarcando desde el diseño del frontend hasta la implementación de un backend funcional y seguro.
+      <br/><br/>
+      Cabe aclarar que cualquier similitud con empresas reales, nombres comerciales o marcas es pura coincidencia. No se persigue con este trabajo apropiarse de la imagen, identidad o propiedad intelectual de ninguna entidad existente.
+    </p>
+  </div>
+</section>
+
+
 <!-- Funcionalidades -->
-<section class="py-16 max-w-7xl mx-auto px-6">
-  <div class="grid md:grid-cols-2 gap-12 items-start">
-    <div>
-      <h2 class="text-4xl font-bold mb-6 text-[#062C70]">Funcionalidades Principales</h2>
-      <p class="text-lg text-gray-700 leading-relaxed">Pack&Track permite a los usuarios registrar paquetes, consultar su ubicación en tiempo real y gestionar el ciclo de entrega desde una interfaz web responsiva, conectada a un backend escalable y seguro.</p>
-    </div>
-    <div class="grid sm:grid-cols-2 gap-6">
-      <div class="bg-white rounded-xl p-5 shadow hover:shadow-lg transition">
-        <h3 class="text-xl font-semibold mb-2 text-[#062C70]">Registro de Envíos</h3>
-        <p class="text-gray-700 text-sm">Formulario para ingresar paquetes con información detallada.</p>
+<section class="bg-white py-16">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="grid md:grid-cols-2 gap-12 items-start">
+      <div>
+        <h2 class="text-4xl font-bold mb-6 text-[#062C70]">Funcionalidades Principales</h2>
+        <p class="text-lg text-gray-700 leading-relaxed">Pack&Track permite a los usuarios registrar paquetes, consultar su ubicación en tiempo real y gestionar el ciclo de entrega desde una interfaz web responsiva, conectada a un backend escalable y seguro.</p>
       </div>
-      <div class="bg-white rounded-xl p-5 shadow hover:shadow-lg transition">
-        <h3 class="text-xl font-semibold mb-2 text-[#062C70]">Tracking en Tiempo Real</h3>
-        <p class="text-gray-700 text-sm">Consulta de estado y ubicación a través de API.</p>
-      </div>
-      <div class="bg-white rounded-xl p-5 shadow hover:shadow-lg transition">
-        <h3 class="text-xl font-semibold mb-2 text-[#062C70]">Gestión de Entregas</h3>
-        <p class="text-gray-700 text-sm">Confirmación de entregas con registro de datos.</p>
-      </div>
-      <div class="bg-white rounded-xl p-5 shadow hover:shadow-lg transition">
-        <h3 class="text-xl font-semibold mb-2 text-[#062C70]">Dashboard de Reportes</h3>
-        <p class="text-gray-700 text-sm">Estadísticas de entregas y paquetes en tránsito.</p>
+      <div class="grid sm:grid-cols-2 gap-6">
+        <!-- Tarjetas -->
+        <div class="bg-white rounded-xl p-5 shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2 text-[#062C70]">Registro de Envíos</h3>
+          <p class="text-gray-700 text-sm">Formulario para ingresar paquetes con información detallada.</p>
+        </div>
+        <div class="bg-white rounded-xl p-5 shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2 text-[#062C70]">Tracking en Tiempo Real</h3>
+          <p class="text-gray-700 text-sm">Consulta de estado y ubicación a través de API.</p>
+        </div>
+        <div class="bg-white rounded-xl p-5 shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2 text-[#062C70]">Gestión de Entregas</h3>
+          <p class="text-gray-700 text-sm">Confirmación de entregas con registro de datos.</p>
+        </div>
+        <div class="bg-white rounded-xl p-5 shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2 text-[#062C70]">Dashboard de Reportes</h3>
+          <p class="text-gray-700 text-sm">Estadísticas de entregas y paquetes en tránsito.</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 <!-- Ejemplo de Tracking Number -->
-<section class="py-16 max-w-7xl mx-auto px-6">
-  <h2 class="text-3xl font-bold mb-8 text-[#062C70] text-center">Ejemplo de Número de Seguimiento</h2>
-  <div class="bg-white p-6 rounded-xl shadow-md text-center max-w-xl mx-auto">
-    <p class="text-lg text-gray-700 mb-4">Puedes probar la funcionalidad de tracking usando:</p>
-    <div class="text-2xl font-bold text-[#062C70] tracking-widest select-all">TRK123456</div>
-    <p class="text-sm text-gray-500 mt-3">Ingresa este código en el buscador de paquetes para ver su estado actual.</p>
+<section class="bg-gray-100 py-16">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-8 text-[#062C70] text-center">Ejemplo de Número de Seguimiento</h2>
+    <div class="bg-gray-50 p-6 rounded-xl shadow-md text-center max-w-xl mx-auto">
+      <p class="text-lg text-gray-700 mb-4">Puedes probar la funcionalidad de tracking usando:</p>
+      <div class="text-2xl font-bold text-[#062C70] tracking-widest select-all">TRK123456</div>
+      <p class="text-sm text-gray-500 mt-3">Ingresa este código en el buscador de paquetes para ver su estado actual.</p>
+    </div>
   </div>
 </section>
 
+
 <!-- Sección futura -->
-<section class="py-16 max-w-7xl mx-auto px-6">
-  <h2 class="text-3xl font-bold mb-8 text-[#062C70] text-center">Gestión de Envíos</h2>
-  <p class="text-lg text-gray-600 text-center">Esta sección se encuentra en desarrollo. Permitirá administrar paquetes, actualizar estados y visualizar historial de envíos.</p>
+<section class="bg-white py-16">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-8 text-[#062C70] text-center">Gestión de Envíos</h2>
+    <p class="text-lg text-gray-600 text-center">Esta sección se encuentra en desarrollo. Permitirá administrar paquetes, actualizar estados y visualizar historial de envíos.</p>
+  </div>
 </section>
+
 
 <!-- Galería -->
 <section class="bg-gray-100 py-16">
