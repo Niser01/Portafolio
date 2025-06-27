@@ -74,7 +74,7 @@
   <div class="text-center">
     <h2 class="text-4xl font-bold mb-6 text-[#062C70]">Sobre el Proyecto</h2>
     <p class="text-lg text-gray-700 leading-relaxed">
-      <strong>Pack&Track</strong> es una empresa ficticia creada únicamente con fines académicos y demostrativos. Este proyecto forma parte de mi portafolio personal, desarrollado para exponer mis habilidades como desarrollador <strong>fullstack</strong>, abarcando desde el diseño del frontend hasta la implementación de un backend funcional y seguro.
+      <strong>Pack&Track</strong> es una empresa ficticia creada únicamente con fines demostrativos. Este proyecto forma parte de mi portafolio personal, desarrollado para exponer mis habilidades como desarrollador <strong>fullstack</strong>, abarcando desde el diseño del frontend hasta la implementación de un backend funcional y seguro.
       <br/><br/>
       Cabe aclarar que cualquier similitud con empresas reales, nombres comerciales o marcas es pura coincidencia. No se persigue con este trabajo apropiarse de la imagen, identidad o propiedad intelectual de ninguna entidad existente.
     </p>
