@@ -26,7 +26,7 @@
     </a>
 
     <!-- To-Do List -->
-    <a href="https://github.com/Niser01/API-ToDo-List" target="_blank" rel="noopener noreferrer" class="block border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
+    <a href="#" target="_blank" rel="noopener noreferrer" class="block border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
       <img src="/todolist.svg" alt="To-Do List App" class="rounded-lg mb-4 h-48 w-full object-contain">
       <span class="bg-gray-100 text-gray-700 text-xs font-semibold px-2 py-0.5 rounded mb-2 inline-block">Proyecto Personal</span>
       <h3 class="text-2xl font-semibold mb-2">To-Do List App</h3>
@@ -37,7 +37,7 @@
         <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">GraphQL</span>
         <span class="bg-pink-100 text-pink-800 text-xs font-medium px-2.5 py-0.5 rounded">Svelte</span>
       </div>
-      <span class="text-blue-600 hover:underline">Ver en GitHub →</span>
+      <span class="text-blue-600 hover:underline">Ver más →</span>
     </a>
 
     <!-- Portafolio -->

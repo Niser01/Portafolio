@@ -31,24 +31,23 @@
           </div>
         </div>
 
-        <!-- CTA doble -->
-        <div class="flex flex-col items-center gap-3">
-          <a href="https://github.com/Niser01/RegistroYSeguimientoDeEnvios" target="_blank"
-            class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full transition text-sm">
-            <img src="/github.svg" alt="GitHub" class="w-4 h-4" />
-            Ver en GitHub
-            <span class="text-base">→</span>
-          </a>
+      <!-- CTA doble -->
+      <div class="flex flex-col items-center gap-3">
+        <a href="https://github.com/Niser01/RegistroYSeguimientoDeEnvios" target="_blank"
+          class="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full transition text-sm w-56">
+          <img src="/github.svg" alt="GitHub" class="w-4 h-4" />
+          Ver en GitHub
+          <span class="text-base">→</span>
+        </a>
 
-          <a href="https://registro-y-seguimiento-de-envios.vercel.app/" target="_blank"
-            class="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-full transition text-sm">
-            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-              <path d="M12.293 2.293a1 1 0 011.414 0L18 6.586V17a1 1 0 01-1 1H3a1 1 0 01-1-1V3a1 1 0 011-1h9.586l-.293.293zM13 3.414L16.586 7H13V3.414zM4 4v12h12V9h-5a1 1 0 01-1-1V4H4z" />
-            </svg>
-            Ver Prototipo
-            <span class="text-base">→</span>
-          </a>
-        </div>
+        <a href="https://registro-y-seguimiento-de-envios.vercel.app/" target="_blank"
+          class="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-full transition text-sm w-56">
+          <img src="/packtrack_icon.svg" alt="PackTrack" class="w-4 h-4" />
+          Ver en Vivo
+          <span class="text-base">→</span>
+        </a>
+      </div>
+
 
       </div>
     </div>

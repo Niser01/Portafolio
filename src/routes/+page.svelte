@@ -128,22 +128,23 @@
   <p class="text-gray-600 mb-12 text-lg text-center">Algunos de los proyectos más relevantes en los que he trabajado. ¿Quieres conocer más?</p>
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
 
-    <!-- Proyecto 1 -->
-    <div class="border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
-      <img src="/todolist.svg" alt="To-Do List App" class="rounded-lg mb-4 h-48 w-full object-contain">
-      <h3 class="text-2xl font-semibold mb-2">To-Do List App</h3>
-      <p class="text-gray-600 mb-3">App de tareas fullstack en desarrollo con Go, PostgreSQL y GraphQL, con frontend planeado en Svelte y API Gateway propio.</p>
+    <!-- Pack&Track -->
+    <a href="/proyectos/pack_and_track" class="block border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
+      <img src="/P&T_Naranja.svg" alt="Pack&Track" class="rounded-lg mb-4 h-48 w-full object-contain">
+      <span class="bg-gray-100 text-gray-700 text-xs font-semibold px-2 py-0.5 rounded mb-2 inline-block">Proyecto Personal</span>
+      <h3 class="text-2xl font-semibold mb-2">Pack&Track</h3>
+      <p class="text-gray-600 mb-3">Sistema de seguimiento de paquetes con backend en Go y PostgreSQL, frontend en Svelte y despliegue cloud en Render, Neon y Vercel.</p>
       <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-teal-100 text-teal-800 text-xs font-medium px-2.5 py-0.5 rounded">Go</span>
+        <span class="bg-sky-100 text-sky-800 text-xs font-medium px-2.5 py-0.5 rounded">Go</span>
         <span class="bg-indigo-100 text-indigo-800 text-xs font-medium px-2.5 py-0.5 rounded">PostgreSQL</span>
-        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">GraphQL</span>
         <span class="bg-pink-100 text-pink-800 text-xs font-medium px-2.5 py-0.5 rounded">Svelte</span>
+        <span class="bg-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Git</span>
       </div>
-      <a href="https://github.com/Niser01/API-ToDo-List" target="_blank" class="text-blue-600 hover:underline">Ver en GitHub →</a>
-    </div>
+      <span class="text-blue-600 hover:underline">Ver más →</span>
+    </a>
 
-    <!-- Proyecto 2 -->
-    <div class="border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
+    <!-- Portafolio -->
+    <a href="/proyectos/portafolio" class="block border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
       <img src="/portafolio.png" alt="Portafolio Personal" class="rounded-lg mb-4 h-48 w-full object-cover">
       <h3 class="text-2xl font-semibold mb-2">Portafolio Personal</h3>
       <p class="text-gray-600 mb-3">Mi portafolio web minimalista, rápido y responsivo desarrollado con Svelte y Tailwind CSS, alojado en Vercel.</p>
@@ -152,22 +153,22 @@
         <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">Tailwind</span>
         <span class="bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Vercel</span>
       </div>
-      <a href="/proyectos/portafolio" class="text-blue-600 hover:underline">Ver más →</a>
-    </div>
+      <span class="text-blue-600 hover:underline">Ver más →</span>
+    </a>
 
-    <!-- Proyecto 3 -->
-    <div class="border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
+    <!-- Facultad Ciencias -->
+    <a href="/proyectos/pagina_web_facultad_de_ciencias" class="block border rounded-2xl p-6 shadow-lg hover:scale-105 transition bg-white">
       <img src="/facultad_ciencias.png" alt="Facultad Ciencias" class="rounded-lg mb-4 h-48 w-full object-cover">
       <h3 class="text-2xl font-semibold mb-2">Página Web Facultad de Ciencias - UNAL</h3>
       <p class="text-gray-600 mb-3">Sitio institucional desarrollado y desplegado con rediseño completo y migración de contenidos.</p>
       <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">HTML</span>
-        <span class="bg-yellow-100 text-yellow-800 text-xs font-medium px-2.5 py-0.5 rounded">CSS</span>
+        <span class="bg-orange-100 text-orange-800 text-xs font-medium px-2.5 py-0.5 rounded">HTML</span>
+        <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">CSS</span>
         <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">WordPress</span>
         <span class="bg-gray-200 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded">Apache</span>
       </div>
-      <a href="/proyectos/pagina_web_facultad_de_ciencias" class="text-blue-600 hover:underline">Ver más →</a>
-    </div>
+      <span class="text-blue-600 hover:underline">Ver más →</span>
+    </a>
 
   </div>
 
